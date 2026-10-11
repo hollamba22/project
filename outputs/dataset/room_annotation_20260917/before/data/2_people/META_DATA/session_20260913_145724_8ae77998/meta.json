@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "session_id": "session_20260913_145724_8ae77998",
+  "quality_status": "failed",
+  "dataset_role": "failure_history",
+  "use_for_final_training": false,
+  "label": {
+    "num_people": 2,
+    "activity": "natural",
+    "label_status": "unknown"
+  },
+  "capture": {
+    "planned_duration_sec": 1200.0
+  },
+  "session_control": {
+    "file": "session_control.json",
+    "completed": false,
+    "abort_reason": "CSI 수집 또는 후처리 실패"
+  }
+}

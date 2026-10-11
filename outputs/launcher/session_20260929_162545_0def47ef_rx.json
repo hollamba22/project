@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260929_162545_0def47ef",
+  "completed": false,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1790666745.8101778
+    },
+    {
+      "event": "COLLECTION_SELECTED",
+      "wall_epoch": 1790666770.7124274,
+      "room": "G304",
+      "setup_id": "0929G304",
+      "activity": "free_test",
+      "empty_reference_session_id": "session_20260929_130615_fca489d4",
+      "capture_mode": "free_test",
+      "planned_people_range": [
+        0,
+        4
+      ]
+    },
+    {
+      "event": "FAILED",
+      "wall_epoch": 1790666782.0094407
+    }
+  ],
+  "collection_context": {
+    "room": "G304",
+    "setup_id": "0929G304",
+    "activity": "free_test",
+    "empty_reference_session_id": "session_20260929_130615_fca489d4",
+    "capture_mode": "free_test",
+    "planned_people_range": [
+      0,
+      4
+    ]
+  },
+  "wire_num_people_meaning": "planned_upper_bound_not_actual_count; RX data labels are unknown",
+  "abort_reason": "목록에 있는 V4L2 장치를 선택하세요."
+}

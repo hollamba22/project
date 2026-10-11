@@ -1,0 +1,25 @@
+{
+  "camera_process_started_monotonic_sec": 12290.401969149,
+  "camera_process_started_wall_epoch": 1790666851.2950726,
+  "camera_process_stopped_wall_epoch": 1790669322.4052157,
+  "camera_wall_clock_overlay": true,
+  "csi_timestamp_summary": {
+    "duration_sec": 2400.335532,
+    "gaps_gt_100ms": 502,
+    "gaps_gt_50ms": 4894,
+    "max_gap_ms": 281.831
+  },
+  "estimated_timer_zero_video_sec": 25.62583088874817,
+  "logger_started_wall_epoch": 1790666876.2976227,
+  "logger_stopped_wall_epoch": 1790669276.966531,
+  "note": "Process start and first UDP are not first video/CSI frames. Verify the offset before joining video annotations to CSI windows. Clock overlay is RX local wall time at video processing, in whole seconds.",
+  "schema_version": "1.0-free-test-timing",
+  "session_id": "session_20260929_162631_f2a614d4",
+  "timer_origin": "first_valid_session_udp_packet",
+  "timer_zero_monotonic_sec": 12316.027797841,
+  "timer_zero_wall_epoch": 1790666876.9209034,
+  "timezone": "Asia/Seoul",
+  "verification_status": "unverified",
+  "verified_alignment_error_sec": null,
+  "verified_csi_zero_video_sec": null
+}

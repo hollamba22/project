@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=CSI RX 수집
+Comment=RX 대화형 CSI 수집 실행기
+Exec=/usr/bin/python3 "@PROJECT_ROOT@/tools/csi_capture_rx_launcher.py"
+Path=@PROJECT_ROOT@
+Terminal=true
+Icon=utilities-terminal
+Categories=Utility;
+X-CSI-Launcher=true

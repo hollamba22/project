@@ -1,0 +1,1 @@
+window_id,session_id,csi_file,meta_file,quality_status,dataset_role,use_for_final_training,num_people,label_status,activity,duration_sec,record_count,window_size_sec,stride_sec,start_sec,end_sec,start_packet,end_packet,packet_count

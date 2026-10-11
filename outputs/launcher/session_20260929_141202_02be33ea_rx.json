@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260929_141202_02be33ea",
+  "completed": false,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1790658722.5884564
+    },
+    {
+      "event": "COLLECTION_SELECTED",
+      "wall_epoch": 1790658755.0548062,
+      "room": "G304",
+      "setup_id": "0929G304",
+      "activity": "mixed",
+      "empty_reference_session_id": "session_20260929_130615_fca489d4"
+    },
+    {
+      "event": "FAILED",
+      "wall_epoch": 1790658774.198756
+    }
+  ],
+  "collection_context": {
+    "room": "G304",
+    "setup_id": "0929G304",
+    "activity": "mixed",
+    "empty_reference_session_id": "session_20260929_130615_fca489d4"
+  },
+  "abort_reason": "목록에 있는 V4L2 장치를 선택하세요."
+}

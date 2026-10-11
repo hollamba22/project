@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "session_id": "session_20260710_153743",
+  "created_at": "2026-07-10T16:13:52+09:00",
+  "project": "wifi_csi_people_counting",
+  "quality_status": "valid_csi",
+  "dataset_role": "verification_only",
+  "use_for_final_training": false,
+  "label": {
+    "num_people": 2,
+    "label_status": "stable_full_session",
+    "activity": "natural",
+    "people_description": "two people in room during verification capture",
+    "notes": ""
+  },
+  "capture": {
+    "duration_sec": 60,
+    "planned_duration_sec": 60,
+    "start_time_local": "2026-07-10 15:37:43",
+    "end_time_local": "2026-07-10 15:38:43",
+    "csi_file": "csi.dat",
+    "csi_file_bytes": 1941820,
+    "csi_record_count": 4916,
+    "video_file": null
+  },
+  "environment": {
+    "room": "school_lounge_or_lab_room",
+    "room_shape": "rectangle",
+    "room_has_wifi_rack": true,
+    "nearby_aps": "many",
+    "environment_note": "high_wifi_interference",
+    "door_state": "unknown",
+    "large_objects_moved": false,
+    "notes": ""
+  },
+  "layout": {
+    "tx_position": "opposite_short_wall_or_current_test_position",
+    "rx_position": "opposite_short_wall_or_current_test_position",
+    "hotspot_position": "fixed_phone_hotspot_position",
+    "tx_rx_distance_m": null,
+    "tx_height_m": null,
+    "rx_height_m": null,
+    "hotspot_height_m": null,
+    "antenna_holder": "not_used_pre_holder",
+    "antenna_direction_fixed": true,
+    "antenna_notes": ""
+  },
+  "receiver": {
+    "hostname": "RXPC",
+    "role": "receiver",
+    "interface": "wlp4s0",
+    "mac": "00:16:ea:ed:a9:80",
+    "ip": "10.27.219.22/24",
+    "kernel": "4.15.0-213-generic",
+    "driver": "patched_iwlwifi",
+    "connector_log": 1,
+    "rx_bitrate_observed": "144.4 MBit/s MCS 15 short GI",
+    "signal_dbm": -23
+  },
+  "sender": {
+    "hostname": "",
+    "role": "sender",
+    "interface": "wlp4s0",
+    "mac": "",
+    "ip": "",
+    "kernel": "",
+    "ping_to_receiver_before_capture": "pass",
+    "sender_command": "python3 scripts/sender/safe_sender.py --target 10.27.219.22 --mode udp --duration 60 --rate 100 --size 512"
+  },
+  "network": {
+    "ap_type": "phone_hotspot",
+    "ap_ssid": "Minhyuck S24+",
+    "ap_bssid": "92:91:d6:68:b5:14",
+    "ap_channel": 6,
+    "ap_frequency_mhz": 2437,
+    "ap_band": "2.4GHz",
+    "ap_security": "open",
+    "network_cidr": "10.27.219.0/24"
+  },
+  "validation": {
+    "file_size_checked": true,
+    "parse_log_checked": true,
+    "parse_log_code": "0xBB",
+    "record_count_checked": true,
+    "valid_csi": true,
+    "review_reason": ""
+  },
+  "comments": "Verification-only capture before 3D-printed antenna holder.",
+  "parser_summary": {
+    "antenna_dimensions": {
+      "3x2": 4916
+    },
+    "rates": {
+      "0x210f": 4752,
+      "0x010e": 111,
+      "0x010f": 13,
+      "0x010d": 40
+    },
+    "rssi_average": {
+      "rssi_a": 35.82139951179821,
+      "rssi_b": 39.902563059397885,
+      "rssi_c": 39.45097640358015
+    },
+    "amplitude": {
+      "mean_of_packet_means": 36.050330718534525,
+      "mean_of_packet_stds": 20.632288080859638,
+      "min": 0.0,
+      "max": 127.05904139414872
+    }
+  }
+}

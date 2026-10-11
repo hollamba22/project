@@ -1,0 +1,78 @@
+{
+  "configuration": {
+    "csi_mode": "scaled",
+    "expected_nrx": 3,
+    "expected_ntx": 2,
+    "min_packets": 40,
+    "rx_permutation_applied": true,
+    "stride_sec": 1.0,
+    "timestamp_source": "Intel 5300 timestamp_low (microseconds, unwrapped)",
+    "window_size_sec": 2.0
+  },
+  "created_at": "2026-09-13T16:34:56+09:00",
+  "label": {
+    "activity": "natural",
+    "has_trainable_label": true,
+    "label_status": "stable_full_session",
+    "num_people": 2
+  },
+  "outputs": {
+    "window_features_csv": "data/structured/session_20260913_161128_29c3bb2f/window_features.csv"
+  },
+  "quality": {
+    "final_training_allowed": false,
+    "note": "Training-candidate data captured with the antenna fixture recorded in meta.json.",
+    "review_reasons": [
+      "10 records had unexpected antenna dimensions"
+    ],
+    "status": "needs_review"
+  },
+  "records": {
+    "accepted": 103846,
+    "antenna_dimensions": {
+      "3x1": 10,
+      "3x2": 103846
+    },
+    "invalid_permutation": 0,
+    "observed_duration_sec": 1200.312562,
+    "permutations": {
+      "1-2-3": 84035,
+      "1-3-2": 1988,
+      "2-1-3": 10407,
+      "2-3-1": 4506,
+      "3-1-2": 2454,
+      "3-2-1": 466
+    },
+    "rates": {
+      "0x0101": 10,
+      "0x010c": 14,
+      "0x010d": 1219,
+      "0x010e": 8194,
+      "0x010f": 1142,
+      "0x210f": 93277
+    },
+    "scaling_errors": 0,
+    "skipped_dimension": 10,
+    "total": 103856
+  },
+  "schema_version": "1.1",
+  "session_id": "session_20260913_161128_29c3bb2f",
+  "source": {
+    "csi_file": "data/2_people/CSI_DATA/session_20260913_161128_29c3bb2f.dat",
+    "file_bytes": 41021320,
+    "meta_file": "data/2_people/META_DATA/session_20260913_161128_29c3bb2f/meta.json",
+    "sha256": "861f4d3340098aea40b38af41d5dd7bd367ac0eb16dc787f392ac8bb6d469ddd"
+  },
+  "windows": {
+    "dropped_short": 0,
+    "feature_count": 88,
+    "kept": 1199
+  },
+  "environment": {
+    "room": "G308"
+  },
+  "room_annotation": {
+    "source": "User confirmed on 2026-09-17: all previously collected CSI sessions were in classroom G308.",
+    "previous_room": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "session_id": "session_20260917_193753_575208a2",
+  "created_at": "2026-09-17T19:47:35+09:00",
+  "project": "wifi_csi_people_counting",
+  "quality_status": "valid_csi",
+  "dataset_role": "training_candidate",
+  "use_for_final_training": true,
+  "label": {
+    "num_people": 0,
+    "label_status": "stable_full_session",
+    "activity": "empty",
+    "people_description": "",
+    "notes": ""
+  },
+  "capture": {
+    "duration_sec": 300.0,
+    "planned_duration_sec": 300.0,
+    "start_time_local": "2026-09-17 19:47:35",
+    "end_time_local": "2026-09-17 19:52:35",
+    "csi_file": "../../CSI_DATA/session_20260917_193753_575208a2.dat",
+    "csi_file_bytes": 10157030,
+    "csi_record_count": 25714,
+    "video_file": "../../Web_Cam/session_20260917_193753_575208a2.webm"
+  },
+  "environment": {
+    "room": "G304",
+    "setup_id": "A",
+    "empty_reference_session_id": "session_20260917_193753_575208a2",
+    "room_shape": "rectangle",
+    "room_has_wifi_rack": false,
+    "nearby_aps": "unknown",
+    "environment_note": "",
+    "door_state": "unknown",
+    "large_objects_moved": false,
+    "notes": ""
+  },
+  "layout": {
+    "tx_position": "unknown",
+    "rx_position": "unknown",
+    "hotspot_position": "unknown",
+    "tx_rx_distance_m": null,
+    "tx_height_m": null,
+    "rx_height_m": null,
+    "hotspot_height_m": null,
+    "antenna_holder": "3d_printed_v1",
+    "antenna_direction_fixed": true,
+    "antenna_notes": ""
+  },
+  "receiver": {
+    "hostname": "RXPC",
+    "role": "receiver",
+    "interface": "wlp4s0",
+    "mac": "00:16:ea:ed:a9:80",
+    "ip": "10.146.17.22/24",
+    "kernel": "4.15.0-213-generic",
+    "driver": "patched_iwlwifi",
+    "connector_log": 1,
+    "rx_bitrate_observed": "144.4 MBit/s MCS 15 short GI",
+    "signal_dbm": -36
+  },
+  "sender": {
+    "hostname": "",
+    "role": "sender",
+    "interface": "wlp4s0",
+    "mac": "",
+    "ip": "",
+    "kernel": "",
+    "ping_to_receiver_before_capture": "unknown",
+    "sender_command": "python3 scripts/sender/safe_sender.py --target 10.146.17.22 --mode udp --duration 310.0 --rate 100 --size 512"
+  },
+  "network": {
+    "ap_type": "phone_hotspot",
+    "ap_ssid": "Minhyuck S24+",
+    "ap_bssid": "be:93:07:3c:38:15",
+    "ap_channel": 6,
+    "ap_frequency_mhz": 2437,
+    "ap_band": "2.4GHz",
+    "ap_security": "",
+    "network_cidr": ""
+  },
+  "validation": {
+    "file_size_checked": true,
+    "parse_log_checked": true,
+    "parse_log_code": "0xBB",
+    "record_count_checked": true,
+    "valid_csi": true,
+    "review_reason": ""
+  },
+  "comments": "Training-candidate capture using the fixed 3D-printed antenna holder. RF transmitter is the phone hotspot/AP; sender PC is the traffic generator.",
+  "parser_summary": {
+    "antenna_dimensions": {
+      "3x2": 25714
+    },
+    "rates": {
+      "0x210f": 23841,
+      "0x010e": 1683,
+      "0x010f": 190
+    },
+    "rssi_average": {
+      "rssi_a": 37.090806564517386,
+      "rssi_b": 39.80092556583962,
+      "rssi_c": 33.09679551995022
+    },
+    "amplitude": {
+      "mean_of_packet_means": 28.86231459702879,
+      "mean_of_packet_stds": 15.550842571381871,
+      "min": 0.0,
+      "max": 76.92203845452875
+    }
+  },
+  "session_control": {
+    "file": "session_control.json",
+    "completed": true,
+    "abort_reason": ""
+  },
+  "activity_guidance": {
+    "file": "session_control.json",
+    "events": "GUIDE_*",
+    "segments_file": "activity_segments.json",
+    "settings": {
+      "version": 2,
+      "participants": [],
+      "prepare_sec": 30,
+      "settle_sec": 30,
+      "segments": [
+        {
+          "index": 1,
+          "repeat": 1,
+          "activity": "empty",
+          "start_sec": 0.0,
+          "end_sec": 300.0
+        }
+      ],
+      "walking_phase_sec": 5,
+      "walking_cycle_sec": 20,
+      "walking_rotation_sec": 60,
+      "timing_reference": "first_valid_session_udp_packet",
+      "annotation_kind": "planned_instructions_not_verified_actions"
+    }
+  }
+}

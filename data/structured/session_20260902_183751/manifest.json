@@ -1,0 +1,78 @@
+{
+  "configuration": {
+    "csi_mode": "scaled",
+    "expected_nrx": 3,
+    "expected_ntx": 2,
+    "min_packets": 40,
+    "rx_permutation_applied": true,
+    "stride_sec": 1.0,
+    "timestamp_source": "Intel 5300 timestamp_low (microseconds, unwrapped)",
+    "window_size_sec": 2.0
+  },
+  "created_at": "2026-09-02T18:59:43+09:00",
+  "label": {
+    "activity": "natural",
+    "has_trainable_label": true,
+    "label_status": "stable_full_session",
+    "num_people": 4
+  },
+  "outputs": {
+    "window_features_csv": "data/structured/session_20260902_183751/window_features.csv"
+  },
+  "quality": {
+    "final_training_allowed": false,
+    "note": "Training-candidate data captured with the antenna fixture recorded in meta.json.",
+    "review_reasons": [
+      "8 records had unexpected antenna dimensions"
+    ],
+    "status": "needs_review"
+  },
+  "records": {
+    "accepted": 96606,
+    "antenna_dimensions": {
+      "3x1": 8,
+      "3x2": 96606
+    },
+    "invalid_permutation": 0,
+    "observed_duration_sec": 1202.756781,
+    "permutations": {
+      "1-2-3": 29748,
+      "1-3-2": 4292,
+      "2-1-3": 19315,
+      "2-3-1": 24308,
+      "3-1-2": 1679,
+      "3-2-1": 17272
+    },
+    "rates": {
+      "0x0101": 8,
+      "0x010c": 6,
+      "0x010d": 928,
+      "0x010e": 5727,
+      "0x010f": 792,
+      "0x210f": 89153
+    },
+    "scaling_errors": 0,
+    "skipped_dimension": 8,
+    "total": 96614
+  },
+  "schema_version": "1.1",
+  "session_id": "session_20260902_183751",
+  "source": {
+    "csi_file": "data/4_people/CSI_DATA/session_20260902_183751.dat",
+    "file_bytes": 38161090,
+    "meta_file": "data/4_people/META_DATA/session_20260902_183751/meta.json",
+    "sha256": "60098a2a56fcd4fe2fa7bb3e20b6df0c7df48284d0a2c93660772c39ccba9c05"
+  },
+  "windows": {
+    "dropped_short": 14,
+    "feature_count": 88,
+    "kept": 1187
+  },
+  "environment": {
+    "room": "G308"
+  },
+  "room_annotation": {
+    "source": "User confirmed on 2026-09-17: all previously collected CSI sessions were in classroom G308.",
+    "previous_room": null
+  }
+}

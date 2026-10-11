@@ -1,0 +1,22 @@
+# Local Python installation and generated caches
+/outputs/csi_analysis_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Operating-system metadata
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Local credentials; example configuration may be shared
+.env
+.env.*
+!.env.example
+!.env.template
+/credentials.json
+/secrets.json

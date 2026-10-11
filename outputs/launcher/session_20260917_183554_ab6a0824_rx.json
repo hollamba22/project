@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260917_183554_ab6a0824",
+  "completed": false,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1789637754.0251155
+    },
+    {
+      "event": "FAILED",
+      "wall_epoch": 1789637764.3846009
+    }
+  ],
+  "abort_reason": "수집 준비 중 취소"
+}

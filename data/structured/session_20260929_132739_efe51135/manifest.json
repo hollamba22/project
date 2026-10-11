@@ -1,0 +1,86 @@
+{
+  "configuration": {
+    "csi_mode": "scaled",
+    "expected_nrx": 3,
+    "expected_ntx": 2,
+    "min_packets": 40,
+    "rx_permutation_applied": true,
+    "stride_sec": 1.0,
+    "timestamp_source": "Intel 5300 timestamp_low (microseconds, unwrapped)",
+    "window_size_sec": 2.0
+  },
+  "created_at": "2026-09-29T14:09:48+09:00",
+  "environment": {
+    "empty_reference_session_id": "session_20260929_130615_fca489d4",
+    "room": "G304",
+    "setup_id": "0929G304"
+  },
+  "label": {
+    "activity": "mixed",
+    "has_trainable_label": true,
+    "label_status": "stable_full_session",
+    "num_people": 3
+  },
+  "outputs": {
+    "window_features_csv": "data/structured/session_20260929_132739_efe51135/window_features.csv"
+  },
+  "quality": {
+    "final_training_allowed": false,
+    "note": "Training-candidate data captured with the antenna fixture recorded in meta.json.",
+    "review_reasons": [
+      "990 records had unexpected antenna dimensions"
+    ],
+    "status": "needs_review"
+  },
+  "records": {
+    "accepted": 125549,
+    "antenna_dimensions": {
+      "3x1": 990,
+      "3x2": 125549
+    },
+    "invalid_permutation": 0,
+    "observed_duration_sec": 1800.12804,
+    "permutations": {
+      "2-1-3": 7824,
+      "2-3-1": 118715
+    },
+    "rates": {
+      "0x0101": 26,
+      "0x0104": 23,
+      "0x0105": 261,
+      "0x0106": 230,
+      "0x0107": 47,
+      "0x0108": 5,
+      "0x0109": 249,
+      "0x010a": 83,
+      "0x010b": 794,
+      "0x010c": 4109,
+      "0x010d": 40252,
+      "0x010e": 53841,
+      "0x010f": 4975,
+      "0x2107": 403,
+      "0x210f": 21241
+    },
+    "scaling_errors": 0,
+    "skipped_dimension": 990,
+    "total": 126539
+  },
+  "schema_version": "1.1",
+  "session_id": "session_20260929_132739_efe51135",
+  "source": {
+    "csi_file": "data/3_people/CSI_DATA/session_20260929_132739_efe51135.dat",
+    "file_bytes": 49804705,
+    "meta_file": "data/3_people/META_DATA/session_20260929_132739_efe51135/meta.json",
+    "sha256": "af00df5e8b74de03564db394dd7664f7d8fc5930343f2ac9d2f8fb0360ebd84d"
+  },
+  "windows": {
+    "dropped_short": 1,
+    "feature_count": 88,
+    "kept": 1798
+  },
+  "activity_guidance": {
+    "segments_file": "data/3_people/META_DATA/session_20260929_132739_efe51135/activity_segments.json",
+    "events_file": "data/3_people/META_DATA/session_20260929_132739_efe51135/session_control.json",
+    "label_status": "planned_instructions_not_verified_actions"
+  }
+}

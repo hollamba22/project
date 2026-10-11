@@ -1,0 +1,19 @@
+#!/bin/sh
+# RXPC-specific optional boot entries. Default Ubuntu boot is unchanged.
+exec tail -n +4 "$0"
+menuentry 'CSI Linux 4.15 - HDMI 1080p (no GPU acceleration)' --id csi-415-display-test {
+    insmod gzio
+    insmod part_gpt
+    insmod ext2
+    search --no-floppy --fs-uuid --set=root daa68b2d-cb72-480c-850b-36d9b330fbc0
+    linux /boot/vmlinuz-4.15.0-213-generic root=UUID=daa68b2d-cb72-480c-850b-36d9b330fbc0 ro nouveau.noaccel=1 video=HDMI-A-1:1920x1080@60e
+    initrd /boot/initrd.img-4.15.0-213-generic
+}
+menuentry 'CSI Linux 4.15 - text console (nomodeset)' --id csi-415-text-test {
+    insmod gzio
+    insmod part_gpt
+    insmod ext2
+    search --no-floppy --fs-uuid --set=root daa68b2d-cb72-480c-850b-36d9b330fbc0
+    linux /boot/vmlinuz-4.15.0-213-generic root=UUID=daa68b2d-cb72-480c-850b-36d9b330fbc0 ro nomodeset systemd.unit=multi-user.target
+    initrd /boot/initrd.img-4.15.0-213-generic
+}

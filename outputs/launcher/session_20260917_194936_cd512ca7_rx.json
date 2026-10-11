@@ -1,0 +1,712 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260917_194936_cd512ca7",
+  "completed": true,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1789642176.61643
+    },
+    {
+      "event": "COLLECTION_SELECTED",
+      "wall_epoch": 1789642247.443756,
+      "room": "G304",
+      "setup_id": "A",
+      "activity": "mixed",
+      "empty_reference_session_id": "session_20260917_193753_575208a2"
+    },
+    {
+      "event": "GUIDE_CONFIGURED",
+      "wall_epoch": 1789642294.1099017,
+      "settings": {
+        "version": 2,
+        "participants": [
+          {
+            "person": "P1",
+            "position": "Z1"
+          },
+          {
+            "person": "P2",
+            "position": "Z2"
+          },
+          {
+            "person": "P3",
+            "position": "Z3"
+          },
+          {
+            "person": "P4",
+            "position": "Z4"
+          }
+        ],
+        "prepare_sec": 30,
+        "settle_sec": 30,
+        "segments": [
+          {
+            "index": 1,
+            "repeat": 1,
+            "activity": "sitting",
+            "start_sec": 0.0,
+            "end_sec": 120.0
+          },
+          {
+            "index": 2,
+            "repeat": 1,
+            "activity": "standing",
+            "start_sec": 120.0,
+            "end_sec": 240.0
+          },
+          {
+            "index": 3,
+            "repeat": 1,
+            "activity": "walking",
+            "start_sec": 240.0,
+            "end_sec": 360.0,
+            "walking_order": [
+              "P1",
+              "P2",
+              "P3",
+              "P4"
+            ]
+          }
+        ],
+        "walking_phase_sec": 5,
+        "walking_cycle_sec": 20,
+        "walking_rotation_sec": 60,
+        "timing_reference": "first_valid_session_udp_packet",
+        "annotation_kind": "planned_instructions_not_verified_actions"
+      }
+    },
+    {
+      "event": "PREFLIGHT",
+      "wall_epoch": 1789642294.1252146,
+      "config": {
+        "num_people": 4,
+        "duration_sec": 360.0,
+        "sender_duration_sec": 370.0,
+        "profile": {
+          "display_name": "김민혁 핫스팟",
+          "ssid": "Minhyuck S24+",
+          "verified": true,
+          "frequency_confirmed": true
+        },
+        "camera": {
+          "enabled": true,
+          "device": "/dev/video0",
+          "preview": true,
+          "width": 640,
+          "height": 480,
+          "fps": 10,
+          "label_video_missing": false,
+          "formats": "ioctl: VIDIOC_ENUM_FMT\n\tIndex       : 0\n\tType        : Video Capture\n\tPixel Format: 'MJPG' (compressed)\n\tName        : Motion-JPEG\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1440x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1920x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\n\tIndex       : 1\n\tType        : Video Capture\n\tPixel Format: 'H264' (compressed)\n\tName        : H.264\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1440x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1920x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\n\tIndex       : 2\n\tType        : Video Capture\n\tPixel Format: 'YUYV'\n\tName        : YUYV 4:2:2\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.067s (15.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.100s (10.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.100s (10.000 fps)"
+        },
+        "rate": 100,
+        "size": 512,
+        "data_port": 5005,
+        "session_id": "session_20260917_194936_cd512ca7"
+      },
+      "rx": {
+        "interface": "wlp4s0",
+        "ssid": "Minhyuck S24+",
+        "bssid": "be:93:07:3c:38:15",
+        "frequency": 2437,
+        "channel": 6,
+        "ip": "10.146.17.22",
+        "cidr": "10.146.17.22/24",
+        "mac": "00:16:ea:ed:a9:80",
+        "power_save": "Power save: off"
+      },
+      "checks": {
+        "kernel": "4.15.0-213-generic",
+        "connector_log": "1",
+        "iw_link": "Connected to be:93:07:3c:38:15 (on wlp4s0)\n\tSSID: Minhyuck S24+\n\tfreq: 2437\n\tRX: 141178467 bytes (217370 packets)\n\tTX: 13249066 bytes (72639 packets)\n\tsignal: -43 dBm\n\ttx bitrate: 65.0 MBit/s MCS 6 short GI\n\n\tbss flags:\tCTS-protection short-preamble short-slot-time\n\tdtim period:\t2\n\tbeacon int:\t100",
+        "ip_address": "3: wlp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n    inet 10.146.17.22/24 brd 10.146.17.255 scope global dynamic noprefixroute wlp4s0\n       valid_lft 2927sec preferred_lft 2927sec",
+        "free_bytes": 53620006912,
+        "active_logger_pids": [],
+        "camera": {
+          "device": "/dev/video0",
+          "real_path": "/dev/video0",
+          "name": "Web Camera: Web Camera",
+          "gst_launch": "/usr/bin/gst-launch-1.0",
+          "enabled": true
+        },
+        "problems": [],
+        "driver_module": "/lib/modules/4.15.0-213-generic/updates/iwlwifi.ko",
+        "firmware": "/lib/firmware/iwlwifi-5000-2.ucode.sigcomm2010",
+        "power_save": "Power save: off"
+      }
+    },
+    {
+      "event": "HANDSHAKE",
+      "wall_epoch": 1789642317.1547046,
+      "tx": {
+        "interface": "wlp4s0",
+        "ssid": "Minhyuck S24+",
+        "bssid": "be:93:07:3c:38:15",
+        "frequency": 2437,
+        "channel": 6,
+        "ip": "10.146.17.104",
+        "cidr": "10.146.17.104/24",
+        "mac": "00:21:6a:6d:30:40",
+        "power_save": "Power save: on"
+      },
+      "peer_ip": "10.146.17.104"
+    },
+    {
+      "event": "TX_READY",
+      "wall_epoch": 1789642324.0444765,
+      "ping": {
+        "ok": true,
+        "output": "PING 10.146.17.22 (10.146.17.22) from 10.146.17.104 wlp4s0: 56(84) bytes of data.\n64 bytes from 10.146.17.22: icmp_seq=1 ttl=64 time=9.37 ms\n64 bytes from 10.146.17.22: icmp_seq=2 ttl=64 time=16.0 ms\n64 bytes from 10.146.17.22: icmp_seq=3 ttl=64 time=9.69 ms\n64 bytes from 10.146.17.22: icmp_seq=4 ttl=64 time=55.0 ms\n\n--- 10.146.17.22 ping statistics ---\n4 packets transmitted, 4 received, 0% packet loss, time 3005ms\nrtt min/avg/max/mdev = 9.373/22.533/55.064/18.967 ms\n"
+      }
+    },
+    {
+      "event": "RX_APPROVED",
+      "wall_epoch": 1789642329.294748
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642379.234574,
+      "stage": "자리 준비·퇴실",
+      "cue_key": "자리 준비·퇴실",
+      "instruction": "지정 자리에 앉아 준비하세요. 수집 중 방 안 인원은 4명입니다.",
+      "planned_duration_sec": 30
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642409.234829,
+      "stage": "안정화",
+      "cue_key": "안정화",
+      "instruction": "이동을 멈추고 시작 신호를 기다리세요.",
+      "planned_duration_sec": 30
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642439.2351618,
+      "stage": "시작 대기",
+      "cue_key": "waiting",
+      "instruction": "현재 상태를 유지하고 시작 안내를 기다리세요."
+    },
+    {
+      "event": "CAPTURE_READY",
+      "wall_epoch": 1789642439.7378547
+    },
+    {
+      "event": "START",
+      "wall_epoch": 1789642439.738881,
+      "attempt": 1
+    },
+    {
+      "event": "START_ACK",
+      "wall_epoch": 1789642439.8171883
+    },
+    {
+      "event": "GUIDE_TIME_ANCHOR",
+      "wall_epoch": 1789642439.8383713,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "clock": "elapsed seconds since first valid session UDP; cues are instructions, not observed actions"
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642439.83925,
+      "stage": "수집 중 1/3구간",
+      "cue_key": "segment_1_sitting",
+      "instruction": "지정 자리에 앉아 유지하세요.",
+      "scheduled_elapsed_sec": 0.0,
+      "observed_elapsed_sec": 0.00011215399990760488,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "다음 동작 서기 (2.0분), 인원 유지",
+      "person": null,
+      "activity": "sitting",
+      "segment_index": 1,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642559.84209,
+      "stage": "수집 중 2/3구간",
+      "cue_key": "segment_2_standing",
+      "instruction": "지정 위치에서 서서 유지하세요.",
+      "scheduled_elapsed_sec": 120.0,
+      "observed_elapsed_sec": 120.00379184099984,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "다음 동작 교대 걷기 (2.0분), 인원 유지",
+      "person": null,
+      "activity": "standing",
+      "segment_index": 2,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642679.8522878,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_0",
+      "instruction": "P1: W0 → W1로 5초 동안 이동",
+      "scheduled_elapsed_sec": 240.0,
+      "observed_elapsed_sec": 240.01395073000003,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W1에서 5초 정지",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642684.8667984,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_1",
+      "instruction": "P1: W1에서 5초 정지",
+      "scheduled_elapsed_sec": 245.0,
+      "observed_elapsed_sec": 245.02846255500026,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W1 → W0로 5초 동안 이동",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642689.8817546,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_2",
+      "instruction": "P1: W1 → W0로 5초 동안 이동",
+      "scheduled_elapsed_sec": 250.0,
+      "observed_elapsed_sec": 250.04343039200012,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W0에서 5초 정지",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642694.8982854,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_3",
+      "instruction": "P1: W0에서 5초 정지",
+      "scheduled_elapsed_sec": 255.0,
+      "observed_elapsed_sec": 255.05996064600004,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W0 → W1로 5초 동안 이동",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642699.9118316,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_4",
+      "instruction": "P1: W0 → W1로 5초 동안 이동",
+      "scheduled_elapsed_sec": 260.0,
+      "observed_elapsed_sec": 260.07349508900006,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W1에서 5초 정지",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642704.926195,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_5",
+      "instruction": "P1: W1에서 5초 정지",
+      "scheduled_elapsed_sec": 265.0,
+      "observed_elapsed_sec": 265.08785840899964,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W1 → W0로 5초 동안 이동",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642709.8401444,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_6",
+      "instruction": "P1: W1 → W0로 5초 동안 이동",
+      "scheduled_elapsed_sec": 270.0,
+      "observed_elapsed_sec": 270.0018060929997,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W0에서 5초 정지",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642714.854457,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_7",
+      "instruction": "P1: W0에서 5초 정지",
+      "scheduled_elapsed_sec": 275.0,
+      "observed_elapsed_sec": 275.01612290199955,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W0 → W1로 5초 동안 이동",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642719.86869,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_8",
+      "instruction": "P1: W0 → W1로 5초 동안 이동",
+      "scheduled_elapsed_sec": 280.0,
+      "observed_elapsed_sec": 280.03035049200025,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W1에서 5초 정지",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642724.8829007,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_9",
+      "instruction": "P1: W1에서 5초 정지",
+      "scheduled_elapsed_sec": 285.0,
+      "observed_elapsed_sec": 285.0445628130001,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W1 → W0로 5초 동안 이동",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642729.8999262,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_10",
+      "instruction": "P1: W1 → W0로 5초 동안 이동",
+      "scheduled_elapsed_sec": 290.0,
+      "observed_elapsed_sec": 290.0615987279998,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P1: W0에서 5초 정지",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642734.913353,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P1_11",
+      "instruction": "P1: W0에서 5초 정지",
+      "scheduled_elapsed_sec": 295.0,
+      "observed_elapsed_sec": 295.0750312800001,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W0 → W1로 5초 동안 이동",
+      "person": "P1",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642739.9281094,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_12",
+      "instruction": "P2: W0 → W1로 5초 동안 이동",
+      "scheduled_elapsed_sec": 300.0,
+      "observed_elapsed_sec": 300.0897775980002,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W1에서 5초 정지",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642744.842715,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_13",
+      "instruction": "P2: W1에서 5초 정지",
+      "scheduled_elapsed_sec": 305.0,
+      "observed_elapsed_sec": 305.00438124500033,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W1 → W0로 5초 동안 이동",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642749.8571393,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_14",
+      "instruction": "P2: W1 → W0로 5초 동안 이동",
+      "scheduled_elapsed_sec": 310.0,
+      "observed_elapsed_sec": 310.01880398899993,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W0에서 5초 정지",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642754.8716154,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_15",
+      "instruction": "P2: W0에서 5초 정지",
+      "scheduled_elapsed_sec": 315.0,
+      "observed_elapsed_sec": 315.0332815749998,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W0 → W1로 5초 동안 이동",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642759.8869078,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_16",
+      "instruction": "P2: W0 → W1로 5초 동안 이동",
+      "scheduled_elapsed_sec": 320.0,
+      "observed_elapsed_sec": 320.04857819100016,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W1에서 5초 정지",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642764.9037957,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_17",
+      "instruction": "P2: W1에서 5초 정지",
+      "scheduled_elapsed_sec": 325.0,
+      "observed_elapsed_sec": 325.06547342999966,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W1 → W0로 5초 동안 이동",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642769.9181302,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_18",
+      "instruction": "P2: W1 → W0로 5초 동안 이동",
+      "scheduled_elapsed_sec": 330.0,
+      "observed_elapsed_sec": 330.0797986079997,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W0에서 5초 정지",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642774.9357696,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_19",
+      "instruction": "P2: W0에서 5초 정지",
+      "scheduled_elapsed_sec": 335.0,
+      "observed_elapsed_sec": 335.0974420379998,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W0 → W1로 5초 동안 이동",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642779.8500462,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_20",
+      "instruction": "P2: W0 → W1로 5초 동안 이동",
+      "scheduled_elapsed_sec": 340.0,
+      "observed_elapsed_sec": 340.01171236499977,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W1에서 5초 정지",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642784.8653235,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_21",
+      "instruction": "P2: W1에서 5초 정지",
+      "scheduled_elapsed_sec": 345.0,
+      "observed_elapsed_sec": 345.0269858769998,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W1 → W0로 5초 동안 이동",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642789.8799427,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_22",
+      "instruction": "P2: W1 → W0로 5초 동안 이동",
+      "scheduled_elapsed_sec": 350.0,
+      "observed_elapsed_sec": 350.0416088490001,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "P2: W0에서 5초 정지",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642794.8959281,
+      "stage": "수집 중 3/3구간",
+      "cue_key": "segment_3_walking_P2_23",
+      "instruction": "P2: W0에서 5초 정지",
+      "scheduled_elapsed_sec": 355.0,
+      "observed_elapsed_sec": 355.05759780100016,
+      "first_packet_wall_epoch": 1789642439.8382535,
+      "next_instruction": "기록 시간 종료 — 정리 중 현재 상태 유지",
+      "person": "P2",
+      "activity": "walking",
+      "segment_index": 3,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1789642799.838345,
+      "stage": "기록 마무리",
+      "cue_key": "finishing",
+      "instruction": "영상·기록 정리가 끝날 때까지 현재 상태를 유지하세요.",
+      "elapsed_sec": 360.0
+    },
+    {
+      "event": "GUIDE_STATUS",
+      "wall_epoch": 1789642811.830147,
+      "stage": "processing"
+    },
+    {
+      "event": "SENDER_DONE",
+      "wall_epoch": 1789642811.8317454,
+      "result": {
+        "sent": 37000,
+        "elapsed_sec": 370.00032577799993,
+        "duration_sec": 370.0,
+        "rate": 100,
+        "size": 512,
+        "exit_code": 0
+      }
+    },
+    {
+      "event": "GUIDE_STATUS",
+      "wall_epoch": 1789642835.8622963,
+      "stage": "confirming"
+    },
+    {
+      "event": "CAPTURE_DONE",
+      "wall_epoch": 1789642835.8637502
+    },
+    {
+      "event": "COMPLETE_ACK",
+      "wall_epoch": 1789642835.9283369
+    },
+    {
+      "event": "GUIDE_RESULT",
+      "wall_epoch": 1789642835.9298608,
+      "completed": true,
+      "reason": ""
+    },
+    {
+      "event": "COMPLETE",
+      "wall_epoch": 1789642835.931124
+    }
+  ],
+  "collection_context": {
+    "room": "G304",
+    "setup_id": "A",
+    "activity": "mixed",
+    "empty_reference_session_id": "session_20260917_193753_575208a2"
+  },
+  "activity_guidance": {
+    "version": 2,
+    "participants": [
+      {
+        "person": "P1",
+        "position": "Z1"
+      },
+      {
+        "person": "P2",
+        "position": "Z2"
+      },
+      {
+        "person": "P3",
+        "position": "Z3"
+      },
+      {
+        "person": "P4",
+        "position": "Z4"
+      }
+    ],
+    "prepare_sec": 30,
+    "settle_sec": 30,
+    "segments": [
+      {
+        "index": 1,
+        "repeat": 1,
+        "activity": "sitting",
+        "start_sec": 0.0,
+        "end_sec": 120.0
+      },
+      {
+        "index": 2,
+        "repeat": 1,
+        "activity": "standing",
+        "start_sec": 120.0,
+        "end_sec": 240.0
+      },
+      {
+        "index": 3,
+        "repeat": 1,
+        "activity": "walking",
+        "start_sec": 240.0,
+        "end_sec": 360.0,
+        "walking_order": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      }
+    ],
+    "walking_phase_sec": 5,
+    "walking_cycle_sec": 20,
+    "walking_rotation_sec": 60,
+    "timing_reference": "first_valid_session_udp_packet",
+    "annotation_kind": "planned_instructions_not_verified_actions"
+  },
+  "abort_reason": ""
+}

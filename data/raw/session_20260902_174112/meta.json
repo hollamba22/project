@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "session_id": "session_20260902_174112",
+  "quality_status": "failed",
+  "dataset_role": "failure_history",
+  "use_for_final_training": false,
+  "label": {
+    "num_people": 2,
+    "label_status": "unknown",
+    "activity": "natural"
+  },
+  "capture": {
+    "csi_file": "csi.dat"
+  },
+  "comments": "Minimal metadata added for room annotation; no new CSI or label validation.",
+  "environment": {
+    "room": "G308"
+  },
+  "room_annotation": {
+    "source": "User confirmed on 2026-09-17: all previously collected CSI sessions were in classroom G308.",
+    "previous_room": null
+  }
+}

@@ -1,0 +1,8 @@
+# Preserve original bytes; large research artifacts use Git LFS.
+*.webm filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.ko filter=lfs diff=lfs merge=lfs -text

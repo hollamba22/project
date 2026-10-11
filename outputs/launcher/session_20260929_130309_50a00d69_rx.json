@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260929_130309_50a00d69",
+  "completed": false,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1790654589.5455334
+    },
+    {
+      "event": "COLLECTION_SELECTED",
+      "wall_epoch": 1790654634.449374,
+      "room": "G304",
+      "setup_id": "0929",
+      "activity": "mixed",
+      "empty_reference_session_id": null
+    },
+    {
+      "event": "FAILED",
+      "wall_epoch": 1790654764.2318447
+    }
+  ],
+  "collection_context": {
+    "room": "G304",
+    "setup_id": "0929",
+    "activity": "mixed",
+    "empty_reference_session_id": null
+  },
+  "abort_reason": "운영자 취소/Ctrl+C"
+}

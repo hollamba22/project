@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260913_145724_8ae77998",
+  "completed": false,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1789279044.7965648
+    },
+    {
+      "event": "PREFLIGHT",
+      "wall_epoch": 1789279137.1599483,
+      "config": {
+        "num_people": 2,
+        "duration_sec": 1200.0,
+        "sender_duration_sec": 1210.0,
+        "profile": {
+          "display_name": "김민혁 핫스팟",
+          "ssid": "Minhyuck S24+",
+          "verified": true,
+          "frequency_confirmed": true
+        },
+        "camera": {
+          "enabled": true,
+          "device": "/dev/video0",
+          "preview": true,
+          "width": 640,
+          "height": 480,
+          "fps": 10,
+          "label_video_missing": false,
+          "formats": "ioctl: VIDIOC_ENUM_FMT\n\tIndex       : 0\n\tType        : Video Capture\n\tPixel Format: 'MJPG' (compressed)\n\tName        : Motion-JPEG\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1440x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1920x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\n\tIndex       : 1\n\tType        : Video Capture\n\tPixel Format: 'H264' (compressed)\n\tName        : H.264\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1440x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1920x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\n\tIndex       : 2\n\tType        : Video Capture\n\tPixel Format: 'YUYV'\n\tName        : YUYV 4:2:2\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.067s (15.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.100s (10.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.100s (10.000 fps)"
+        },
+        "rate": 100,
+        "size": 512,
+        "data_port": 5005,
+        "session_id": "session_20260913_145724_8ae77998"
+      },
+      "rx": {
+        "interface": "wlp4s0",
+        "ssid": "Minhyuck S24+",
+        "bssid": "be:93:07:3c:38:15",
+        "frequency": 2437,
+        "channel": 6,
+        "ip": "10.187.192.22",
+        "cidr": "10.187.192.22/24",
+        "mac": "00:16:ea:ed:a9:80",
+        "power_save": "Power save: off"
+      },
+      "checks": {
+        "kernel": "4.15.0-213-generic",
+        "connector_log": "1",
+        "iw_link": "Connected to be:93:07:3c:38:15 (on wlp4s0)\n\tSSID: Minhyuck S24+\n\tfreq: 2437\n\tRX: 92249405 bytes (227928 packets)\n\tTX: 5929953 bytes (16544 packets)\n\tsignal: -35 dBm\n\ttx bitrate: 117.0 MBit/s MCS 14\n\n\tbss flags:\tCTS-protection short-preamble short-slot-time\n\tdtim period:\t2\n\tbeacon int:\t100",
+        "ip_address": "3: wlp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n    inet 10.187.192.22/24 brd 10.187.192.255 scope global dynamic noprefixroute wlp4s0\n       valid_lft 2968sec preferred_lft 2968sec",
+        "free_bytes": 55529857024,
+        "active_logger_pids": [],
+        "camera": {
+          "device": "/dev/video0",
+          "real_path": "/dev/video0",
+          "name": "Web Camera: Web Camera",
+          "gst_launch": "/usr/bin/gst-launch-1.0",
+          "enabled": true
+        },
+        "problems": [],
+        "driver_module": "/lib/modules/4.15.0-213-generic/updates/iwlwifi.ko",
+        "firmware": "/lib/firmware/iwlwifi-5000-2.ucode.sigcomm2010",
+        "power_save": "Power save: off"
+      }
+    },
+    {
+      "event": "HANDSHAKE",
+      "wall_epoch": 1789279167.1518593,
+      "tx": {
+        "interface": "wlp4s0",
+        "ssid": "Minhyuck S24+",
+        "bssid": "be:93:07:3c:38:15",
+        "frequency": 2437,
+        "channel": 6,
+        "ip": "10.187.192.104",
+        "cidr": "10.187.192.104/24",
+        "mac": "00:21:6a:6d:30:40",
+        "power_save": "Power save: on"
+      },
+      "peer_ip": "10.187.192.104"
+    },
+    {
+      "event": "TX_READY",
+      "wall_epoch": 1789279178.1951797,
+      "ping": {
+        "ok": true,
+        "output": "PING 10.187.192.22 (10.187.192.22) from 10.187.192.104 wlp4s0: 56(84) bytes of data.\n64 bytes from 10.187.192.22: icmp_seq=1 ttl=64 time=9.98 ms\n64 bytes from 10.187.192.22: icmp_seq=2 ttl=64 time=46.0 ms\n64 bytes from 10.187.192.22: icmp_seq=3 ttl=64 time=13.6 ms\n64 bytes from 10.187.192.22: icmp_seq=4 ttl=64 time=10.2 ms\n\n--- 10.187.192.22 ping statistics ---\n4 packets transmitted, 4 received, 0% packet loss, time 3004ms\nrtt min/avg/max/mdev = 9.982/19.979/46.033/15.109 ms\n"
+      }
+    },
+    {
+      "event": "RX_APPROVED",
+      "wall_epoch": 1789279196.0238128
+    },
+    {
+      "event": "CAPTURE_READY",
+      "wall_epoch": 1789279204.7513905
+    },
+    {
+      "event": "START",
+      "wall_epoch": 1789279204.7532258,
+      "attempt": 1
+    },
+    {
+      "event": "START_ACK",
+      "wall_epoch": 1789279204.8282955
+    },
+    {
+      "event": "FAILED",
+      "wall_epoch": 1789279436.9199407
+    }
+  ],
+  "abort_reason": "CSI 수집 또는 후처리 실패"
+}

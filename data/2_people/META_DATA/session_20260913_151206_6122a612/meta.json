@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "session_id": "session_20260913_151206_6122a612",
+  "quality_status": "failed",
+  "dataset_role": "failure_history",
+  "use_for_final_training": false,
+  "label": {
+    "num_people": 2,
+    "activity": "natural",
+    "label_status": "unknown"
+  },
+  "capture": {
+    "planned_duration_sec": 1200.0
+  },
+  "session_control": {
+    "file": "session_control.json",
+    "completed": false,
+    "abort_reason": "CSI 수집 또는 후처리 실패"
+  },
+  "environment": {
+    "room": "G308"
+  },
+  "room_annotation": {
+    "source": "User confirmed on 2026-09-17: all previously collected CSI sessions were in classroom G308.",
+    "previous_room": null
+  }
+}

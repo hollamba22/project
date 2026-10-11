@@ -1,0 +1,21 @@
+{
+  "fresh_process_predictions_verified": {
+    "random_forest": {
+      "correct": 579,
+      "n": 658,
+      "accuracy": 0.8799392097264438
+    },
+    "svm_rbf": {
+      "correct": 633,
+      "n": 658,
+      "accuracy": 0.9620060790273556
+    },
+    "centroid": {
+      "correct": 569,
+      "n": 658,
+      "accuracy": 0.8647416413373861
+    }
+  },
+  "label_free_input_columns": 82,
+  "broken_local_report_links": []
+}

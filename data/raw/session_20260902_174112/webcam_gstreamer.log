@@ -1,0 +1,3 @@
+ERROR: from element /GstPipeline:pipeline0/GstAutoVideoSink:autovideosink0/GstXvImageSink:autovideosink0-actual-sink-xvimage: Output window was closed
+Additional debug info:
+xvimagesink.c(555): gst_xv_image_sink_handle_xevents (): /GstPipeline:pipeline0/GstAutoVideoSink:autovideosink0/GstXvImageSink:autovideosink0-actual-sink-xvimage

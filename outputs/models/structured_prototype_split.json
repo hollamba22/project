@@ -1,0 +1,13 @@
+{
+  "labels": [
+    "2"
+  ],
+  "test_sessions": [
+    "session_20260710_153743"
+  ],
+  "test_window_count": 60,
+  "train_sessions": [
+    "session_20260710_145820"
+  ],
+  "train_window_count": 66
+}

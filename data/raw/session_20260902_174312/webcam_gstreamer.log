@@ -1,0 +1,11 @@
+ERROR: from element /GstPipeline:pipeline0/GstAutoVideoSink:autovideosink0/GstXvImageSink:autovideosink0-actual-sink-xvimage: Output window was closed
+Additional debug info:
+xvimagesink.c(555): gst_xv_image_sink_handle_xevents (): /GstPipeline:pipeline0/GstAutoVideoSink:autovideosink0/GstXvImageSink:autovideosink0-actual-sink-xvimage
+ERROR: from element /GstPipeline:pipeline0/GstV4l2Src:v4l2src0: Internal data stream error.
+Additional debug info:
+gstbasesrc.c(3055): gst_base_src_loop (): /GstPipeline:pipeline0/GstV4l2Src:v4l2src0:
+streaming stopped, reason error (-5)
+ERROR: from element /GstPipeline:pipeline0/GstQueue:queue0: Internal data stream error.
+Additional debug info:
+gstqueue.c(988): gst_queue_handle_sink_event (): /GstPipeline:pipeline0/GstQueue:queue0:
+streaming stopped, reason error (-5)

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0-guide",
+  "session_id": "session_20260929_132739_efe51135",
+  "time_reference": "first_valid_session_udp_packet",
+  "first_packet_wall_epoch": 1790656653.8121746,
+  "segments": [
+    {
+      "index": 1,
+      "repeat": 1,
+      "activity": "sitting",
+      "start_sec": 0.0,
+      "end_sec": 300.0
+    },
+    {
+      "index": 2,
+      "repeat": 1,
+      "activity": "standing",
+      "start_sec": 300.0,
+      "end_sec": 600.0
+    },
+    {
+      "index": 3,
+      "repeat": 1,
+      "activity": "walking",
+      "start_sec": 600.0,
+      "end_sec": 900.0,
+      "walking_order": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "index": 4,
+      "repeat": 2,
+      "activity": "sitting",
+      "start_sec": 900.0,
+      "end_sec": 1200.0
+    },
+    {
+      "index": 5,
+      "repeat": 2,
+      "activity": "standing",
+      "start_sec": 1200.0,
+      "end_sec": 1500.0
+    },
+    {
+      "index": 6,
+      "repeat": 2,
+      "activity": "walking",
+      "start_sec": 1500.0,
+      "end_sec": 1800.0,
+      "walking_order": [
+        "P2",
+        "P3",
+        "P1"
+      ]
+    }
+  ],
+  "completed": true,
+  "instruction_events_file": "session_control.json",
+  "instruction_event_name": "GUIDE_CUE",
+  "label_status": "planned_instructions_not_verified_actions",
+  "alignment_note": "CSI feature-window seconds use the first CSI record, not this UDP anchor; verify alignment before joining."
+}

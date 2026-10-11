@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260913_142745_7e30c98d",
+  "completed": false,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1789277265.9438531
+    },
+    {
+      "event": "FAILED",
+      "wall_epoch": 1789277280.641532
+    }
+  ],
+  "abort_reason": "목록에 있는 V4L2 장치를 선택하세요."
+}

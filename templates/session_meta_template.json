@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "session_id": "session_YYYYMMDD_HHMMSS",
+  "created_at": "YYYY-MM-DDTHH:MM:SS+09:00",
+  "project": "wifi_csi_people_counting",
+  "quality_status": "valid_csi",
+  "dataset_role": "training_candidate",
+  "use_for_final_training": true,
+  "label": {
+    "num_people": 0,
+    "label_status": "stable_full_session",
+    "activity": "standing",
+    "people_description": "",
+    "notes": ""
+  },
+  "capture": {
+    "duration_sec": 60,
+    "planned_duration_sec": 60,
+    "start_time_local": "YYYY-MM-DD HH:MM:SS",
+    "end_time_local": "YYYY-MM-DD HH:MM:SS",
+    "csi_file": "csi.dat",
+    "csi_file_bytes": null,
+    "csi_record_count": null,
+    "video_file": null
+  },
+  "environment": {
+    "room": "room_name",
+    "setup_id": "unknown",
+    "empty_reference_session_id": null,
+    "room_shape": "rectangle",
+    "room_has_wifi_rack": false,
+    "nearby_aps": "unknown",
+    "environment_note": "",
+    "door_state": "closed",
+    "large_objects_moved": false,
+    "notes": ""
+  },
+  "layout": {
+    "tx_position": "opposite_short_wall_mark_A",
+    "rx_position": "opposite_short_wall_mark_B",
+    "hotspot_position": "fixed_mark_C",
+    "tx_rx_distance_m": null,
+    "tx_height_m": null,
+    "rx_height_m": null,
+    "hotspot_height_m": null,
+    "antenna_holder": "3d_printed_v1",
+    "antenna_direction_fixed": true,
+    "antenna_notes": ""
+  },
+  "receiver": {
+    "hostname": "RXPC",
+    "role": "receiver",
+    "interface": "wlp4s0",
+    "mac": "",
+    "ip": "",
+    "kernel": "4.15.0-213-generic",
+    "driver": "patched_iwlwifi",
+    "connector_log": 1,
+    "rx_bitrate_observed": "",
+    "signal_dbm": null
+  },
+  "sender": {
+    "hostname": "",
+    "role": "sender",
+    "interface": "wlp4s0",
+    "mac": "",
+    "ip": "",
+    "kernel": "",
+    "ping_to_receiver_before_capture": "pass",
+    "sender_command": "python3 scripts/sender/safe_sender.py --target <RX_IP> --mode udp --duration 60 --rate 100 --size 512"
+  },
+  "network": {
+    "ap_type": "phone_hotspot",
+    "ap_ssid": "",
+    "ap_bssid": "",
+    "ap_channel": null,
+    "ap_frequency_mhz": null,
+    "ap_band": "2.4GHz",
+    "ap_security": "",
+    "network_cidr": ""
+  },
+  "validation": {
+    "file_size_checked": false,
+    "parse_log_checked": false,
+    "parse_log_code": "0xBB",
+    "record_count_checked": false,
+    "valid_csi": false,
+    "review_reason": ""
+  },
+  "comments": ""
+}

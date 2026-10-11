@@ -1,0 +1,216 @@
+{
+  "activity": "mixed",
+  "camera": {
+    "audio_recorded": false,
+    "codec": "VP8",
+    "command": [
+      "/usr/bin/gst-launch-1.0",
+      "-q",
+      "-e",
+      "v4l2src",
+      "device=/dev/video0",
+      "do-timestamp=true",
+      "!",
+      "videoconvert",
+      "!",
+      "videoscale",
+      "!",
+      "videorate",
+      "!",
+      "video/x-raw,width=640,height=480,framerate=10/1",
+      "!",
+      "tee",
+      "name=webcam_tee",
+      "webcam_tee.",
+      "!",
+      "queue",
+      "leaky=downstream",
+      "max-size-buffers=2",
+      "!",
+      "autovideosink",
+      "sync=false",
+      "webcam_tee.",
+      "!",
+      "queue",
+      "!",
+      "vp8enc",
+      "deadline=1",
+      "cpu-used=8",
+      "threads=2",
+      "target-bitrate=1000000",
+      "!",
+      "webmmux",
+      "!",
+      "filesink",
+      "location=/home/mh/바탕화면/project/data/5_people/Web_Cam/session_20260929_151447_cfbb436a.webm"
+    ],
+    "container": "WebM",
+    "device": "/dev/video0",
+    "device_name": "Web Camera: Web Camera",
+    "enabled": true,
+    "exit_code": 2,
+    "file_bytes": 118762767,
+    "fps": 10,
+    "height": 480,
+    "log_file": "/home/mh/바탕화면/project/data/5_people/META_DATA/session_20260929_151447_cfbb436a/webcam_gstreamer.log",
+    "observed_duration_sec": 948.0565896034241,
+    "output_file": "/home/mh/바탕화면/project/data/5_people/Web_Cam/session_20260929_151447_cfbb436a.webm",
+    "preview_enabled": true,
+    "started_wall_epoch": 1790662620.3044422,
+    "stopped_wall_epoch": 1790663568.3610318,
+    "width": 640
+  },
+  "camera_requested": true,
+  "capture_purpose": "training",
+  "completed": true,
+  "csi_file_bytes": 30591300,
+  "csi_validation": {
+    "antenna_dimensions": {
+      "3x1": 346,
+      "3x2": 77258
+    },
+    "duration_sec": 900.102432,
+    "file_bytes": 30591300,
+    "logger_wall_duration_sec": 900.6506395339966,
+    "record_count": 77604
+  },
+  "dataset_role": "training_candidate",
+  "empty_reference_session_id": "session_20260929_130615_fca489d4",
+  "files": {
+    "csi": "data/5_people/CSI_DATA/session_20260929_151447_cfbb436a.dat",
+    "csi_logger_log": "data/5_people/META_DATA/session_20260929_151447_cfbb436a/csi_logger.log",
+    "metadata_dir": "data/5_people/META_DATA/session_20260929_151447_cfbb436a",
+    "video": "data/5_people/Web_Cam/session_20260929_151447_cfbb436a.webm"
+  },
+  "finished_at": "2026-09-29T15:32:48+09:00",
+  "logger": {
+    "error": "",
+    "exit_code": 0,
+    "method": "guard_stdin",
+    "pid": 4651,
+    "stopped": true
+  },
+  "logger_exit_code": 0,
+  "logger_started_wall_epoch": 1790662645.3072593,
+  "logger_stopped_wall_epoch": 1790663545.9578989,
+  "num_people": 5,
+  "planned_duration_sec": 900.0,
+  "preflight": {
+    "active_logger_pids": [],
+    "camera": {
+      "device": "/dev/video0",
+      "enabled": true,
+      "gst_launch": "/usr/bin/gst-launch-1.0",
+      "name": "Web Camera: Web Camera",
+      "real_path": "/dev/video0"
+    },
+    "connector_log": "1",
+    "free_bytes": 52326551552,
+    "ip_address": "3: wlp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n    inet 10.130.109.22/24 brd 10.130.109.255 scope global dynamic noprefixroute wlp4s0\n       valid_lft 3446sec preferred_lft 3446sec",
+    "iw_link": "Connected to be:93:07:3c:38:15 (on wlp4s0)\n\tSSID: Minhyuck S24+\n\tfreq: 2412\n\tRX: 9475970 bytes (9452 packets)\n\tTX: 489191 bytes (3576 packets)\n\tsignal: -39 dBm\n\ttx bitrate: 52.0 MBit/s MCS 5\n\n\tbss flags:\tCTS-protection short-preamble short-slot-time\n\tdtim period:\t2\n\tbeacon int:\t100",
+    "kernel": "4.15.0-213-generic",
+    "problems": []
+  },
+  "receiver_ip": "10.130.109.22",
+  "room": "G304",
+  "schema_version": "1.0-prototype",
+  "session_id": "session_20260929_151447_cfbb436a",
+  "setup_id": "0929G304",
+  "started_at": "2026-09-29T15:17:00+09:00",
+  "structured_output_dir": "data/structured/session_20260929_151447_cfbb436a",
+  "timed_capture": {
+    "clock": "first_valid_session_udp_packet",
+    "duration_sec": 900.0,
+    "first_packet_wall_epoch": 1790662645.9463058
+  },
+  "topology": {
+    "csi_receiver": "Intel 5300 receiver PC",
+    "rf_transmitter": "phone hotspot/AP",
+    "traffic_generator": "sender PC"
+  },
+  "udp": {
+    "error": null,
+    "first_packet_wall_epoch": 1790662645.9463058,
+    "last_packet_wall_epoch": 1790663545.9429145,
+    "observed_duration_sec": 899.9966087341309,
+    "packet_count": 89956,
+    "payload_bytes": 46057472,
+    "rejected_packets": 0,
+    "sources": {
+      "10.130.109.104": 89956
+    }
+  },
+  "udp_port": 5005,
+  "session_control": {
+    "file": "session_control.json",
+    "completed": true,
+    "abort_reason": ""
+  },
+  "activity_guidance": {
+    "file": "session_control.json",
+    "events": "GUIDE_*",
+    "segments_file": "activity_segments.json",
+    "settings": {
+      "version": 2,
+      "participants": [
+        {
+          "person": "P1",
+          "position": "Z1"
+        },
+        {
+          "person": "P2",
+          "position": "Z2"
+        },
+        {
+          "person": "P3",
+          "position": "Z3"
+        },
+        {
+          "person": "P4",
+          "position": "Z4"
+        },
+        {
+          "person": "P5",
+          "position": "Z5"
+        }
+      ],
+      "prepare_sec": 10,
+      "settle_sec": 10,
+      "segments": [
+        {
+          "index": 1,
+          "repeat": 1,
+          "activity": "sitting",
+          "start_sec": 0.0,
+          "end_sec": 300.0
+        },
+        {
+          "index": 2,
+          "repeat": 1,
+          "activity": "standing",
+          "start_sec": 300.0,
+          "end_sec": 600.0
+        },
+        {
+          "index": 3,
+          "repeat": 1,
+          "activity": "walking",
+          "start_sec": 600.0,
+          "end_sec": 900.0,
+          "walking_order": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+          ]
+        }
+      ],
+      "walking_phase_sec": 5,
+      "walking_cycle_sec": 20,
+      "walking_rotation_sec": 60,
+      "timing_reference": "first_valid_session_udp_packet",
+      "annotation_kind": "planned_instructions_not_verified_actions"
+    }
+  }
+}

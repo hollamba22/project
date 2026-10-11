@@ -1,0 +1,565 @@
+{
+  "all_sources": {
+    "accepted_records": 1025644,
+    "csi_bytes": 452260705,
+    "csi_records": 1149035,
+    "dates": [
+      "20260615",
+      "20260703",
+      "20260710",
+      "20260814",
+      "20260902",
+      "20260913",
+      "20260917",
+      "20260929"
+    ],
+    "nonoverlap_screened_trimmed_windows": 5733,
+    "nonoverlap_screened_windows": 6153,
+    "observed_csi_seconds": 14295.355666,
+    "planned_seconds": 15240.0,
+    "quality_screened_windows": 12295,
+    "quality_status_counts": {
+      "needs_review": 13,
+      "no_manifest": 13,
+      "valid_prototype": 1,
+      "valid_training_candidate": 2
+    },
+    "sessions": 29,
+    "skipped_dimension_records": 8930,
+    "stored_windows": 12749,
+    "video_bytes": 1644487436
+  },
+  "candidate_by_count": {
+    "0": {
+      "accepted_records": 171300,
+      "csi_bytes": 67984710,
+      "csi_records": 172794,
+      "dates": [
+        "20260913",
+        "20260917",
+        "20260929"
+      ],
+      "nonoverlap_screened_trimmed_windows": 933,
+      "nonoverlap_screened_windows": 1018,
+      "observed_csi_seconds": 2102.261986,
+      "planned_seconds": 2100.0,
+      "quality_screened_windows": 2035,
+      "quality_status_counts": {
+        "needs_review": 2,
+        "valid_training_candidate": 1
+      },
+      "sessions": 3,
+      "skipped_dimension_records": 1494,
+      "stored_windows": 2079,
+      "video_bytes": 133579050
+    },
+    "1": {
+      "accepted_records": 169117,
+      "csi_bytes": 67376340,
+      "csi_records": 171792,
+      "dates": [
+        "20260913",
+        "20260929"
+      ],
+      "nonoverlap_screened_trimmed_windows": 941,
+      "nonoverlap_screened_windows": 1000,
+      "observed_csi_seconds": 2100.055975,
+      "planned_seconds": 2100.0,
+      "quality_screened_windows": 1994,
+      "quality_status_counts": {
+        "needs_review": 2
+      },
+      "sessions": 2,
+      "skipped_dimension_records": 2675,
+      "stored_windows": 2096,
+      "video_bytes": 245480443
+    },
+    "2": {
+      "accepted_records": 172281,
+      "csi_bytes": 68384890,
+      "csi_records": 173834,
+      "dates": [
+        "20260913",
+        "20260929"
+      ],
+      "nonoverlap_screened_trimmed_windows": 967,
+      "nonoverlap_screened_windows": 1025,
+      "observed_csi_seconds": 2100.4124540000003,
+      "planned_seconds": 2100.0,
+      "quality_screened_windows": 2049,
+      "quality_status_counts": {
+        "needs_review": 2
+      },
+      "sessions": 2,
+      "skipped_dimension_records": 1553,
+      "stored_windows": 2097,
+      "video_bytes": 249143134
+    },
+    "3": {
+      "accepted_records": 229782,
+      "csi_bytes": 90978245,
+      "csi_records": 230779,
+      "dates": [
+        "20260902",
+        "20260913",
+        "20260929"
+      ],
+      "nonoverlap_screened_trimmed_windows": 1378,
+      "nonoverlap_screened_windows": 1438,
+      "observed_csi_seconds": 3012.706489,
+      "planned_seconds": 3010.0,
+      "quality_screened_windows": 2875,
+      "quality_status_counts": {
+        "needs_review": 2,
+        "valid_training_candidate": 1
+      },
+      "sessions": 3,
+      "skipped_dimension_records": 997,
+      "stored_windows": 3007,
+      "video_bytes": 392175864
+    },
+    "4": {
+      "accepted_records": 196352,
+      "csi_bytes": 77948835,
+      "csi_records": 198165,
+      "dates": [
+        "20260902",
+        "20260917",
+        "20260929"
+      ],
+      "nonoverlap_screened_trimmed_windows": 1087,
+      "nonoverlap_screened_windows": 1171,
+      "observed_csi_seconds": 2462.99942,
+      "planned_seconds": 2460.0,
+      "quality_screened_windows": 2343,
+      "quality_status_counts": {
+        "needs_review": 3
+      },
+      "sessions": 3,
+      "skipped_dimension_records": 1813,
+      "stored_windows": 2445,
+      "video_bytes": 333089022
+    },
+    "5": {
+      "accepted_records": 77258,
+      "csi_bytes": 30591300,
+      "csi_records": 77604,
+      "dates": [
+        "20260929"
+      ],
+      "nonoverlap_screened_trimmed_windows": 415,
+      "nonoverlap_screened_windows": 445,
+      "observed_csi_seconds": 900.102432,
+      "planned_seconds": 900.0,
+      "quality_screened_windows": 888,
+      "quality_status_counts": {
+        "needs_review": 1
+      },
+      "sessions": 1,
+      "skipped_dimension_records": 346,
+      "stored_windows": 899,
+      "video_bytes": 118762767
+    }
+  },
+  "candidate_by_room": {
+    "G304": {
+      "accepted_records": 508756,
+      "csi_bytes": 202857930,
+      "csi_records": 517590,
+      "dates": [
+        "20260917",
+        "20260929"
+      ],
+      "nonoverlap_screened_trimmed_windows": 2913,
+      "nonoverlap_screened_windows": 3138,
+      "observed_csi_seconds": 6662.306887,
+      "planned_seconds": 6660.0,
+      "quality_screened_windows": 6269,
+      "quality_status_counts": {
+        "needs_review": 7,
+        "valid_training_candidate": 1
+      },
+      "sessions": 8,
+      "skipped_dimension_records": 8834,
+      "stored_windows": 6630,
+      "video_bytes": 804284541
+    },
+    "G308": {
+      "accepted_records": 507334,
+      "csi_bytes": 200406390,
+      "csi_records": 507378,
+      "dates": [
+        "20260902",
+        "20260913"
+      ],
+      "nonoverlap_screened_trimmed_windows": 2808,
+      "nonoverlap_screened_windows": 2959,
+      "observed_csi_seconds": 6016.231869,
+      "planned_seconds": 6010.0,
+      "quality_screened_windows": 5915,
+      "quality_status_counts": {
+        "needs_review": 5,
+        "valid_training_candidate": 1
+      },
+      "sessions": 6,
+      "skipped_dimension_records": 44,
+      "stored_windows": 5993,
+      "video_bytes": 667945739
+    }
+  },
+  "candidate_by_room_and_count": {
+    "G304": {
+      "0": {
+        "accepted_records": 70113,
+        "csi_bytes": 28014340,
+        "csi_records": 71600,
+        "dates": [
+          "20260917",
+          "20260929"
+        ],
+        "nonoverlap_screened_trimmed_windows": 368,
+        "nonoverlap_screened_windows": 424,
+        "observed_csi_seconds": 901.726093,
+        "planned_seconds": 900.0,
+        "quality_screened_windows": 849,
+        "quality_status_counts": {
+          "needs_review": 1,
+          "valid_training_candidate": 1
+        },
+        "sessions": 2,
+        "skipped_dimension_records": 1487,
+        "stored_windows": 880,
+        "video_bytes": 34606268
+      },
+      "1": {
+        "accepted_records": 67655,
+        "csi_bytes": 27296270,
+        "csi_records": 70318,
+        "dates": [
+          "20260929"
+        ],
+        "nonoverlap_screened_trimmed_windows": 374,
+        "nonoverlap_screened_windows": 403,
+        "observed_csi_seconds": 900.007791,
+        "planned_seconds": 900.0,
+        "quality_screened_windows": 801,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 2663,
+        "stored_windows": 897,
+        "video_bytes": 119001934
+      },
+      "2": {
+        "accepted_records": 68435,
+        "csi_bytes": 27363570,
+        "csi_records": 69978,
+        "dates": [
+          "20260929"
+        ],
+        "nonoverlap_screened_trimmed_windows": 401,
+        "nonoverlap_screened_windows": 430,
+        "observed_csi_seconds": 900.099892,
+        "planned_seconds": 900.0,
+        "quality_screened_windows": 859,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 1543,
+        "stored_windows": 898,
+        "video_bytes": 118328266
+      },
+      "3": {
+        "accepted_records": 125549,
+        "csi_bytes": 49804705,
+        "csi_records": 126539,
+        "dates": [
+          "20260929"
+        ],
+        "nonoverlap_screened_trimmed_windows": 810,
+        "nonoverlap_screened_windows": 835,
+        "observed_csi_seconds": 1800.12804,
+        "planned_seconds": 1800.0,
+        "quality_screened_windows": 1671,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 990,
+        "stored_windows": 1798,
+        "video_bytes": 235226592
+      },
+      "4": {
+        "accepted_records": 99746,
+        "csi_bytes": 39787745,
+        "csi_records": 101551,
+        "dates": [
+          "20260917",
+          "20260929"
+        ],
+        "nonoverlap_screened_trimmed_windows": 545,
+        "nonoverlap_screened_windows": 601,
+        "observed_csi_seconds": 1260.242639,
+        "planned_seconds": 1260.0,
+        "quality_screened_windows": 1201,
+        "quality_status_counts": {
+          "needs_review": 2
+        },
+        "sessions": 2,
+        "skipped_dimension_records": 1805,
+        "stored_windows": 1258,
+        "video_bytes": 178358714
+      },
+      "5": {
+        "accepted_records": 77258,
+        "csi_bytes": 30591300,
+        "csi_records": 77604,
+        "dates": [
+          "20260929"
+        ],
+        "nonoverlap_screened_trimmed_windows": 415,
+        "nonoverlap_screened_windows": 445,
+        "observed_csi_seconds": 900.102432,
+        "planned_seconds": 900.0,
+        "quality_screened_windows": 888,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 346,
+        "stored_windows": 899,
+        "video_bytes": 118762767
+      }
+    },
+    "G308": {
+      "0": {
+        "accepted_records": 101187,
+        "csi_bytes": 39970370,
+        "csi_records": 101194,
+        "dates": [
+          "20260913"
+        ],
+        "nonoverlap_screened_trimmed_windows": 565,
+        "nonoverlap_screened_windows": 594,
+        "observed_csi_seconds": 1200.535893,
+        "planned_seconds": 1200.0,
+        "quality_screened_windows": 1186,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 7,
+        "stored_windows": 1199,
+        "video_bytes": 98972782
+      },
+      "1": {
+        "accepted_records": 101462,
+        "csi_bytes": 40080070,
+        "csi_records": 101474,
+        "dates": [
+          "20260913"
+        ],
+        "nonoverlap_screened_trimmed_windows": 567,
+        "nonoverlap_screened_windows": 597,
+        "observed_csi_seconds": 1200.048184,
+        "planned_seconds": 1200.0,
+        "quality_screened_windows": 1193,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 12,
+        "stored_windows": 1199,
+        "video_bytes": 126478509
+      },
+      "2": {
+        "accepted_records": 103846,
+        "csi_bytes": 41021320,
+        "csi_records": 103856,
+        "dates": [
+          "20260913"
+        ],
+        "nonoverlap_screened_trimmed_windows": 566,
+        "nonoverlap_screened_windows": 595,
+        "observed_csi_seconds": 1200.312562,
+        "planned_seconds": 1200.0,
+        "quality_screened_windows": 1190,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 10,
+        "stored_windows": 1199,
+        "video_bytes": 130814868
+      },
+      "3": {
+        "accepted_records": 104233,
+        "csi_bytes": 41173540,
+        "csi_records": 104240,
+        "dates": [
+          "20260902",
+          "20260913"
+        ],
+        "nonoverlap_screened_trimmed_windows": 568,
+        "nonoverlap_screened_windows": 603,
+        "observed_csi_seconds": 1212.578449,
+        "planned_seconds": 1210.0,
+        "quality_screened_windows": 1204,
+        "quality_status_counts": {
+          "needs_review": 1,
+          "valid_training_candidate": 1
+        },
+        "sessions": 2,
+        "skipped_dimension_records": 7,
+        "stored_windows": 1209,
+        "video_bytes": 156949272
+      },
+      "4": {
+        "accepted_records": 96606,
+        "csi_bytes": 38161090,
+        "csi_records": 96614,
+        "dates": [
+          "20260902"
+        ],
+        "nonoverlap_screened_trimmed_windows": 542,
+        "nonoverlap_screened_windows": 570,
+        "observed_csi_seconds": 1202.756781,
+        "planned_seconds": 1200.0,
+        "quality_screened_windows": 1142,
+        "quality_status_counts": {
+          "needs_review": 1
+        },
+        "sessions": 1,
+        "skipped_dimension_records": 8,
+        "stored_windows": 1187,
+        "video_bytes": 154730308
+      },
+      "5": {
+        "accepted_records": 0,
+        "csi_bytes": 0,
+        "csi_records": 0,
+        "dates": [],
+        "nonoverlap_screened_trimmed_windows": 0,
+        "nonoverlap_screened_windows": 0,
+        "observed_csi_seconds": 0,
+        "planned_seconds": 0,
+        "quality_screened_windows": 0,
+        "quality_status_counts": {},
+        "sessions": 0,
+        "skipped_dimension_records": 0,
+        "stored_windows": 0,
+        "video_bytes": 0
+      }
+    }
+  },
+  "candidate_raw_decode_samples": 1299,
+  "complete_candidates": {
+    "accepted_records": 1016090,
+    "csi_bytes": 403264320,
+    "csi_records": 1024968,
+    "dates": [
+      "20260902",
+      "20260913",
+      "20260917",
+      "20260929"
+    ],
+    "nonoverlap_screened_trimmed_windows": 5721,
+    "nonoverlap_screened_windows": 6097,
+    "observed_csi_seconds": 12678.538756,
+    "planned_seconds": 12670.0,
+    "quality_screened_windows": 12184,
+    "quality_status_counts": {
+      "needs_review": 12,
+      "valid_training_candidate": 2
+    },
+    "sessions": 14,
+    "skipped_dimension_records": 8878,
+    "stored_windows": 12623,
+    "video_bytes": 1472230280
+  },
+  "duplicate_nonempty_sources": {},
+  "excluded": {
+    "accepted_records": 9554,
+    "csi_bytes": 48996385,
+    "csi_records": 124067,
+    "dates": [
+      "20260615",
+      "20260703",
+      "20260710",
+      "20260814",
+      "20260902",
+      "20260913"
+    ],
+    "nonoverlap_screened_trimmed_windows": 12,
+    "nonoverlap_screened_windows": 56,
+    "observed_csi_seconds": 1616.8169100000002,
+    "planned_seconds": 2570.0,
+    "quality_screened_windows": 111,
+    "quality_status_counts": {
+      "needs_review": 1,
+      "no_manifest": 13,
+      "valid_prototype": 1
+    },
+    "sessions": 15,
+    "skipped_dimension_records": 52,
+    "stored_windows": 126,
+    "video_bytes": 172257156
+  },
+  "final_training_flag_true": {
+    "accepted_records": 26628,
+    "csi_bytes": 10518060,
+    "csi_records": 26628,
+    "dates": [
+      "20260902",
+      "20260917"
+    ],
+    "nonoverlap_screened_trimmed_windows": 120,
+    "nonoverlap_screened_windows": 154,
+    "observed_csi_seconds": 313.364032,
+    "planned_seconds": 310.0,
+    "quality_screened_windows": 307,
+    "quality_status_counts": {
+      "valid_training_candidate": 2
+    },
+    "sessions": 2,
+    "skipped_dimension_records": 0,
+    "stored_windows": 309,
+    "video_bytes": 36424598
+  },
+  "screening_policy": {
+    "coverage_sec_min": 1.5,
+    "max_gap_ms": 200,
+    "meaning": "provisional numerical screening; does not change quality flags or verify actual headcounts/actions",
+    "nonoverlap": "even integer start seconds",
+    "packet_count_min": 80,
+    "timestamp_reversals": "exclude_intersecting_windows",
+    "trim_seconds_each_end": 30
+  },
+  "snapshot_local": "2026-09-29T15:40:43.546345+09:00",
+  "zero_to_four_candidates": {
+    "accepted_records": 938832,
+    "csi_bytes": 372673020,
+    "csi_records": 947364,
+    "dates": [
+      "20260902",
+      "20260913",
+      "20260917",
+      "20260929"
+    ],
+    "nonoverlap_screened_trimmed_windows": 5306,
+    "nonoverlap_screened_windows": 5652,
+    "observed_csi_seconds": 11778.436324,
+    "planned_seconds": 11770.0,
+    "quality_screened_windows": 11296,
+    "quality_status_counts": {
+      "needs_review": 11,
+      "valid_training_candidate": 2
+    },
+    "sessions": 13,
+    "skipped_dimension_records": 8532,
+    "stored_windows": 11724,
+    "video_bytes": 1353467513
+  }
+}

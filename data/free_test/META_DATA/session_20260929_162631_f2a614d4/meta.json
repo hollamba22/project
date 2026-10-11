@@ -1,0 +1,166 @@
+{
+  "capture": {
+    "csi_file": "../../CSI_DATA/session_20260929_162631_f2a614d4.dat",
+    "csi_file_bytes": 75095275,
+    "csi_record_count": 190409,
+    "duration_sec": 2400.0,
+    "end_time_local": "2026-09-29 17:07:56",
+    "planned_duration_sec": 2400.0,
+    "start_time_local": "2026-09-29 16:27:56",
+    "time_reference": "first_valid_session_udp_packet",
+    "video_file": "../../Web_Cam/session_20260929_162631_f2a614d4.webm"
+  },
+  "comments": "Free-entry test recording, planned range 0-4; actual occupancy is unknown until video review. Excluded from training.",
+  "created_at": "2026-09-29T17:09:22+09:00",
+  "dataset_role": "test_candidate",
+  "environment": {
+    "door_state": "unknown",
+    "empty_reference_session_id": "session_20260929_130615_fca489d4",
+    "environment_note": "",
+    "large_objects_moved": false,
+    "nearby_aps": "unknown",
+    "notes": "",
+    "room": "G304",
+    "room_has_wifi_rack": false,
+    "room_shape": "rectangle",
+    "setup_id": "0929G304"
+  },
+  "free_test": {
+    "actual_people": "unknown_until_video_review",
+    "ground_truth_file": "annotations/ground_truth_intervals.csv",
+    "ground_truth_status": "pending_video_review",
+    "ground_truth_time_reference": "video_playback_seconds",
+    "planned_people_range": [
+      0,
+      4
+    ],
+    "schedule": "none; voluntary movements and entries/exits",
+    "time_alignment_file": "time_alignment.json"
+  },
+  "label": {
+    "activity": "free_test",
+    "label_status": "unknown",
+    "notes": "",
+    "num_people": null,
+    "people_description": ""
+  },
+  "layout": {
+    "antenna_direction_fixed": true,
+    "antenna_holder": "3d_printed_v1",
+    "antenna_notes": "",
+    "hotspot_height_m": null,
+    "hotspot_position": "unknown",
+    "rx_height_m": null,
+    "rx_position": "unknown",
+    "tx_height_m": null,
+    "tx_position": "unknown",
+    "tx_rx_distance_m": null
+  },
+  "network": {
+    "ap_band": "2.4GHz",
+    "ap_bssid": "be:93:07:3c:38:15",
+    "ap_channel": 1,
+    "ap_frequency_mhz": 2412,
+    "ap_security": "",
+    "ap_ssid": "Minhyuck S24+",
+    "ap_type": "phone_hotspot",
+    "network_cidr": ""
+  },
+  "parser_summary": {
+    "amplitude": {
+      "max": 135.6502856613284,
+      "mean_of_packet_means": 28.02927733766424,
+      "mean_of_packet_stds": 15.990250506558738,
+      "min": 0.0
+    },
+    "antenna_dimensions": {
+      "3x1": 646,
+      "3x2": 189763
+    },
+    "rates": {
+      "0x0101": 13,
+      "0x0105": 20,
+      "0x0106": 149,
+      "0x0107": 13,
+      "0x0109": 3,
+      "0x010a": 4,
+      "0x010b": 109,
+      "0x010c": 5624,
+      "0x010d": 71901,
+      "0x010e": 83202,
+      "0x010f": 7182,
+      "0x2107": 451,
+      "0x210f": 21738
+    },
+    "rssi_average": {
+      "rssi_a": 34.45785650888351,
+      "rssi_b": 40.237026611137075,
+      "rssi_c": 34.77973205048081
+    }
+  },
+  "project": "wifi_csi_people_counting",
+  "quality_status": "valid_csi",
+  "receiver": {
+    "connector_log": 1,
+    "driver": "patched_iwlwifi",
+    "hostname": "RXPC",
+    "interface": "wlp4s0",
+    "ip": "10.130.109.22/24",
+    "kernel": "4.15.0-213-generic",
+    "mac": "00:16:ea:ed:a9:80",
+    "role": "receiver",
+    "rx_bitrate_observed": "144.4 MBit/s MCS 15 short GI",
+    "signal_dbm": -36
+  },
+  "schema_version": "1.0",
+  "sender": {
+    "hostname": "",
+    "interface": "wlp4s0",
+    "ip": "",
+    "kernel": "",
+    "mac": "",
+    "ping_to_receiver_before_capture": "unknown",
+    "role": "sender",
+    "sender_command": "python3 scripts/sender/safe_sender.py --target 10.130.109.22 --mode udp --duration 2410.0 --rate 100 --size 512"
+  },
+  "session_id": "session_20260929_162631_f2a614d4",
+  "use_for_final_training": false,
+  "validation": {
+    "file_size_checked": true,
+    "parse_log_checked": true,
+    "parse_log_code": "0xBB",
+    "record_count_checked": true,
+    "review_reason": "",
+    "valid_csi": true
+  },
+  "session_control": {
+    "file": "session_control.json",
+    "completed": true,
+    "abort_reason": ""
+  },
+  "activity_guidance": {
+    "file": "session_control.json",
+    "events": "GUIDE_*",
+    "segments_file": "activity_segments.json",
+    "settings": {
+      "version": 2,
+      "participants": [],
+      "prepare_sec": 10,
+      "settle_sec": 10,
+      "segments": [
+        {
+          "index": 1,
+          "repeat": 1,
+          "activity": "free_test",
+          "start_sec": 0.0,
+          "end_sec": 2400.0
+        }
+      ],
+      "walking_phase_sec": 5,
+      "walking_cycle_sec": 20,
+      "walking_rotation_sec": 60,
+      "timing_reference": "first_valid_session_udp_packet",
+      "annotation_kind": "unlabeled_free_test"
+    }
+  }
+}

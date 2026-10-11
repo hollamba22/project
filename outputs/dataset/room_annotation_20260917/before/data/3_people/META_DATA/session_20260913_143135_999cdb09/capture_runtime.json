@@ -1,0 +1,142 @@
+{
+  "activity": "natural",
+  "camera": {
+    "audio_recorded": false,
+    "codec": "VP8",
+    "command": [
+      "/usr/bin/gst-launch-1.0",
+      "-q",
+      "-e",
+      "v4l2src",
+      "device=/dev/video0",
+      "do-timestamp=true",
+      "!",
+      "videoconvert",
+      "!",
+      "videoscale",
+      "!",
+      "videorate",
+      "!",
+      "video/x-raw,width=640,height=480,framerate=10/1",
+      "!",
+      "tee",
+      "name=webcam_tee",
+      "webcam_tee.",
+      "!",
+      "queue",
+      "leaky=downstream",
+      "max-size-buffers=2",
+      "!",
+      "autovideosink",
+      "sync=false",
+      "webcam_tee.",
+      "!",
+      "queue",
+      "!",
+      "vp8enc",
+      "deadline=1",
+      "cpu-used=8",
+      "threads=2",
+      "target-bitrate=1000000",
+      "!",
+      "webmmux",
+      "!",
+      "filesink",
+      "location=/home/mh/바탕화면/project/data/3_people/Web_Cam/session_20260913_143135_999cdb09.webm"
+    ],
+    "container": "WebM",
+    "device": "/dev/video0",
+    "device_name": "Web Camera: Web Camera",
+    "enabled": true,
+    "exit_code": 2,
+    "file_bytes": 153955508,
+    "fps": 10,
+    "height": 480,
+    "log_file": "/home/mh/바탕화면/project/data/3_people/META_DATA/session_20260913_143135_999cdb09/webcam_gstreamer.log",
+    "observed_duration_sec": 1233.5450148582458,
+    "output_file": "/home/mh/바탕화면/project/data/3_people/Web_Cam/session_20260913_143135_999cdb09.webm",
+    "preview_enabled": true,
+    "started_wall_epoch": 1789277585.5201998,
+    "stopped_wall_epoch": 1789278819.0652146,
+    "width": 640
+  },
+  "camera_requested": true,
+  "capture_purpose": "training",
+  "completed": true,
+  "csi_file_bytes": 40812510,
+  "csi_validation": {
+    "antenna_dimensions": {
+      "3x1": 7,
+      "3x2": 103319
+    },
+    "duration_sec": 1200.096626,
+    "file_bytes": 40812510,
+    "logger_wall_duration_sec": 1200.6190629005432,
+    "record_count": 103326
+  },
+  "dataset_role": "training_candidate",
+  "files": {
+    "csi": "data/3_people/CSI_DATA/session_20260913_143135_999cdb09.dat",
+    "csi_logger_log": "data/3_people/META_DATA/session_20260913_143135_999cdb09/csi_logger.log",
+    "metadata_dir": "data/3_people/META_DATA/session_20260913_143135_999cdb09",
+    "video": "data/3_people/Web_Cam/session_20260913_143135_999cdb09.webm"
+  },
+  "finished_at": "2026-09-13T14:53:39+09:00",
+  "logger": {
+    "error": "",
+    "exit_code": 0,
+    "method": "guard_stdin",
+    "pid": 5146,
+    "stopped": true
+  },
+  "logger_exit_code": 0,
+  "logger_started_wall_epoch": 1789277590.5218694,
+  "logger_stopped_wall_epoch": 1789278791.1409323,
+  "num_people": 3,
+  "planned_duration_sec": 1200.0,
+  "preflight": {
+    "active_logger_pids": [],
+    "camera": {
+      "device": "/dev/video0",
+      "enabled": true,
+      "gst_launch": "/usr/bin/gst-launch-1.0",
+      "name": "Web Camera: Web Camera",
+      "real_path": "/dev/video0"
+    },
+    "connector_log": "1",
+    "free_bytes": 55836762112,
+    "ip_address": "3: wlp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n    inet 10.187.192.22/24 brd 10.187.192.255 scope global dynamic noprefixroute wlp4s0\n       valid_lft 3092sec preferred_lft 3092sec",
+    "iw_link": "Connected to be:93:07:3c:38:15 (on wlp4s0)\n\tSSID: Minhyuck S24+\n\tfreq: 2437\n\tRX: 15521781 bytes (73936 packets)\n\tTX: 2849256 bytes (8585 packets)\n\tsignal: -33 dBm\n\ttx bitrate: 130.0 MBit/s MCS 14 short GI\n\n\tbss flags:\tCTS-protection short-preamble short-slot-time\n\tdtim period:\t2\n\tbeacon int:\t100",
+    "kernel": "4.15.0-213-generic",
+    "problems": []
+  },
+  "receiver_ip": "10.187.192.22",
+  "room": "project_room",
+  "schema_version": "1.0-prototype",
+  "session_id": "session_20260913_143135_999cdb09",
+  "started_at": "2026-09-13T14:33:05+09:00",
+  "structured_output_dir": "data/structured/session_20260913_143135_999cdb09",
+  "topology": {
+    "csi_receiver": "Intel 5300 receiver PC",
+    "rf_transmitter": "phone hotspot/AP",
+    "traffic_generator": "sender PC"
+  },
+  "udp": {
+    "error": null,
+    "first_packet_wall_epoch": 1789277591.1260743,
+    "last_packet_wall_epoch": 1789278791.1232333,
+    "observed_duration_sec": 1199.9971590042114,
+    "packet_count": 119983,
+    "payload_bytes": 61431296,
+    "rejected_packets": 0,
+    "sources": {
+      "10.187.192.104": 119983
+    }
+  },
+  "udp_port": 5005,
+  "session_control": {
+    "file": "session_control.json",
+    "completed": true,
+    "abort_reason": ""
+  }
+}

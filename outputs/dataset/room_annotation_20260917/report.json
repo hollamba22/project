@@ -1,0 +1,564 @@
+{
+  "source": "User confirmed on 2026-09-17: all previously collected CSI sessions were in classroom G308.",
+  "created_at": "2026-09-17T18:58:51.982801+09:00",
+  "sessions": [
+    {
+      "session_id": "session_20260615_203420",
+      "session_dir": "data/raw/session_20260615_203420",
+      "room": "G308",
+      "num_people": null,
+      "activity": "unknown",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260615_203722",
+      "session_dir": "data/raw/session_20260615_203722",
+      "room": "G308",
+      "num_people": null,
+      "activity": "unknown",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260615_205335",
+      "session_dir": "data/raw/session_20260615_205335",
+      "room": "G308",
+      "num_people": null,
+      "activity": "unknown",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260703_151554",
+      "session_dir": "data/raw/session_20260703_151554",
+      "room": "G308",
+      "num_people": null,
+      "activity": "unknown",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260703_151951",
+      "session_dir": "data/raw/session_20260703_151951",
+      "room": "G308",
+      "num_people": null,
+      "activity": "unknown",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260703_172027",
+      "session_dir": "data/raw/session_20260703_172027",
+      "room": "G308",
+      "num_people": null,
+      "activity": "unknown",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260710_145820",
+      "session_dir": "data/raw/session_20260710_145820",
+      "room": "G308",
+      "num_people": 2,
+      "activity": "natural",
+      "quality_status": "valid_csi",
+      "dataset_role": "verification_only",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260710_153743",
+      "session_dir": "data/raw/session_20260710_153743",
+      "room": "G308",
+      "num_people": 2,
+      "activity": "natural",
+      "quality_status": "valid_csi",
+      "dataset_role": "verification_only",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260814_150923",
+      "session_dir": "data/raw/session_20260814_150923",
+      "room": "G308",
+      "num_people": 3,
+      "activity": "natural",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260814_151345",
+      "session_dir": "data/raw/session_20260814_151345",
+      "room": "G308",
+      "num_people": 3,
+      "activity": "natural",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260814_151757",
+      "session_dir": "data/raw/session_20260814_151757",
+      "room": "G308",
+      "num_people": 3,
+      "activity": "natural",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260902_174112",
+      "session_dir": "data/raw/session_20260902_174112",
+      "room": "G308",
+      "num_people": 2,
+      "activity": "natural",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260902_174312",
+      "session_dir": "data/raw/session_20260902_174312",
+      "room": "G308",
+      "num_people": 2,
+      "activity": "natural",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260913_170126_a81112c0",
+      "session_dir": "data/0_people/META_DATA/session_20260913_170126_a81112c0",
+      "room": "G308",
+      "num_people": 0,
+      "activity": "empty",
+      "quality_status": "valid_csi",
+      "dataset_role": "training_candidate",
+      "use_for_final_training": true
+    },
+    {
+      "session_id": "session_20260913_154543_2e610644",
+      "session_dir": "data/1_people/META_DATA/session_20260913_154543_2e610644",
+      "room": "G308",
+      "num_people": 1,
+      "activity": "natural",
+      "quality_status": "valid_csi",
+      "dataset_role": "training_candidate",
+      "use_for_final_training": true
+    },
+    {
+      "session_id": "session_20260913_145724_8ae77998",
+      "session_dir": "data/2_people/META_DATA/session_20260913_145724_8ae77998",
+      "room": "G308",
+      "num_people": 2,
+      "activity": "natural",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260913_151206_6122a612",
+      "session_dir": "data/2_people/META_DATA/session_20260913_151206_6122a612",
+      "room": "G308",
+      "num_people": 2,
+      "activity": "natural",
+      "quality_status": "failed",
+      "dataset_role": "failure_history",
+      "use_for_final_training": false
+    },
+    {
+      "session_id": "session_20260913_161128_29c3bb2f",
+      "session_dir": "data/2_people/META_DATA/session_20260913_161128_29c3bb2f",
+      "room": "G308",
+      "num_people": 2,
+      "activity": "natural",
+      "quality_status": "valid_csi",
+      "dataset_role": "training_candidate",
+      "use_for_final_training": true
+    },
+    {
+      "session_id": "session_20260902_182349",
+      "session_dir": "data/3_people/META_DATA/session_20260902_182349",
+      "room": "G308",
+      "num_people": 3,
+      "activity": "natural",
+      "quality_status": "valid_csi",
+      "dataset_role": "training_candidate",
+      "use_for_final_training": true
+    },
+    {
+      "session_id": "session_20260913_143135_999cdb09",
+      "session_dir": "data/3_people/META_DATA/session_20260913_143135_999cdb09",
+      "room": "G308",
+      "num_people": 3,
+      "activity": "natural",
+      "quality_status": "valid_csi",
+      "dataset_role": "training_candidate",
+      "use_for_final_training": true
+    },
+    {
+      "session_id": "session_20260902_183751",
+      "session_dir": "data/4_people/META_DATA/session_20260902_183751",
+      "room": "G308",
+      "num_people": 4,
+      "activity": "natural",
+      "quality_status": "valid_csi",
+      "dataset_role": "training_candidate",
+      "use_for_final_training": true
+    }
+  ],
+  "files": [
+    {
+      "path": "data/0_people/META_DATA/session_20260913_170126_a81112c0/capture_runtime.json",
+      "created": false,
+      "before_sha256": "8b475ed7ffff3719e7f888757763d5604bb92fa668537f2a7e109f333f677cfd",
+      "after_sha256": "a6b4ce659de762b1836527a9605366ba14deca2188e11d8451f38a92aace7aa1"
+    },
+    {
+      "path": "data/0_people/META_DATA/session_20260913_170126_a81112c0/meta.json",
+      "created": false,
+      "before_sha256": "3bb6016b472e24990877ca82db8e1aa33c45e4169bfb26b3a767e2a0985532f4",
+      "after_sha256": "5a33435b14caaacbcf2405507221734c720e453e6e35822f81f83511e22061bc"
+    },
+    {
+      "path": "data/0_people/META_DATA/session_20260913_170126_a81112c0/session_control.json",
+      "created": false,
+      "before_sha256": "8062ce432711132e653f509010639fa8d3cd33edcd292b0380e1982842ae823f",
+      "after_sha256": "535647c1fdf057197153ba14b304d89b1910a1787551beca05812388a41bb88e"
+    },
+    {
+      "path": "data/1_people/META_DATA/session_20260913_154543_2e610644/capture_runtime.json",
+      "created": false,
+      "before_sha256": "6d7f636f976eb314be86672df254e40dde55c78849f60e3b60bd9445d63446c2",
+      "after_sha256": "c8f43562b6798c77481bef687414f8dc6d59aba8c2196eb9a3844f0fbc604d12"
+    },
+    {
+      "path": "data/1_people/META_DATA/session_20260913_154543_2e610644/meta.json",
+      "created": false,
+      "before_sha256": "41f189a2b719dc2ac6b2a37a55207878c58beffa64946d1e131bf7a003cc2b64",
+      "after_sha256": "8ab286f4221903da3b30e02829aa641fc798afa69cad6ede568ab926d6913f6d"
+    },
+    {
+      "path": "data/1_people/META_DATA/session_20260913_154543_2e610644/session_control.json",
+      "created": false,
+      "before_sha256": "54e5697444f69b74deed900cdbd3975faa23f5a8c1a5ae3f3792a7ee1087a6fe",
+      "after_sha256": "9377c11ae09adadb7d4a8412a1c3d85a67f25ed8bed34e1738a40ec818bc0c3c"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_145724_8ae77998/capture_runtime.json",
+      "created": false,
+      "before_sha256": "898858643b4600b1dc2b5c26a32048a866f880f926ed6da39bdf7b47e74f7061",
+      "after_sha256": "80e35639579a03a3bc2b5e57a31a1d5ec8004288c3e96142c2600e30f333f800"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_145724_8ae77998/meta.json",
+      "created": false,
+      "before_sha256": "2d77da8b7001d48560ace4744f12921d44ae5fc15d79bed2ef4acc442d483ce1",
+      "after_sha256": "f74838b74c2358d59ac318900d51e451f11245511418573892dc134872b4b4e3"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_145724_8ae77998/session_control.json",
+      "created": false,
+      "before_sha256": "e5e4ecafd12d8af670845df50e4ab9095f55e718339b96da149c6cf60ea48da4",
+      "after_sha256": "908b5b17ac00db6f074354a60228b84395a41e4329ea17569784e206dd56485d"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_151206_6122a612/capture_runtime.json",
+      "created": false,
+      "before_sha256": "d1b202020cb8306d94472a4753acd51d5b7a0d89939d0aa6a2d77aeac90c8c9a",
+      "after_sha256": "5c32e3fad8caa1fe875d3229301ac43b142f104ceb8a357ca95d71367edb640f"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_151206_6122a612/meta.json",
+      "created": false,
+      "before_sha256": "5f4aa9b5d624bc10c2e92d43d15ead9f775ee681a677c06ab416f9de91015ea6",
+      "after_sha256": "f2b116dbdc119b95f78258f0da5d7032a6df29804e91fe3f4ef534e710b5d01e"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_151206_6122a612/session_control.json",
+      "created": false,
+      "before_sha256": "ef7f97d74be6b5560dd3db5e81ffc94fd7335d3ea0f9ebf2440b72b58d6d9c2c",
+      "after_sha256": "0abd0a3ae354864cc03cea703de524c246f5d89ed29908cf0e1f9d2267c7e620"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_161128_29c3bb2f/capture_runtime.json",
+      "created": false,
+      "before_sha256": "003dc982fb918354460f0678a28b045a348b27cac51f0c18f8c73d15bc05f229",
+      "after_sha256": "d4ba4983dc989a6fdeb3a3b01bb845e3a0114bbdeeb0e11c6b754a4478b67f99"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_161128_29c3bb2f/meta.json",
+      "created": false,
+      "before_sha256": "45b444dbe7050f95b782ea1df303e5123bcc763680f879a1d2085c406358ca44",
+      "after_sha256": "77af2bc039ea588a8cccf391db853b632578b7a8c0826d00a22fbfbad9e2e7e7"
+    },
+    {
+      "path": "data/2_people/META_DATA/session_20260913_161128_29c3bb2f/session_control.json",
+      "created": false,
+      "before_sha256": "6c44e504632122e0fa6ce6c19a0e469e58056b00585acc02a9c65e42fa2a7643",
+      "after_sha256": "c0454f9e2c968c66a0300bf680b08b8a997dfb4485cf7fb3555941c3187b6f79"
+    },
+    {
+      "path": "data/3_people/META_DATA/session_20260902_182349/capture_runtime.json",
+      "created": false,
+      "before_sha256": "a157380a0697d84f185067bac4028ff8d44774685e72610372d4f784af9c8cc9",
+      "after_sha256": "d18ff947ef7367b667d4310c4186ee2849ef77a2d2f1738c1c9b03bb87937fc4"
+    },
+    {
+      "path": "data/3_people/META_DATA/session_20260902_182349/meta.json",
+      "created": false,
+      "before_sha256": "57eb15973c648030952ccba0422d76d532427fcbda47813b954a9660dff74407",
+      "after_sha256": "4ad78a532aba8213ef3c51628d17559dfb86e3cf8dd67f8a9f86ecd9f925211d"
+    },
+    {
+      "path": "data/3_people/META_DATA/session_20260913_143135_999cdb09/capture_runtime.json",
+      "created": false,
+      "before_sha256": "6e3ae1d91b1b38ac387c84453d4b5923c882e8a6ff9456d5f0176f974a729e6c",
+      "after_sha256": "e5b341bd7da5e8f8910c917114e580ca6257970f215a9f94c1ec2b008744945b"
+    },
+    {
+      "path": "data/3_people/META_DATA/session_20260913_143135_999cdb09/meta.json",
+      "created": false,
+      "before_sha256": "f55deca410fcfae150b83bc99349600f8cc3377d8b73f7f2ff8d37ecd585c543",
+      "after_sha256": "120766f5a2f02c99bc96c24bba3805245d1cec159892eb12613a768680689f13"
+    },
+    {
+      "path": "data/3_people/META_DATA/session_20260913_143135_999cdb09/session_control.json",
+      "created": false,
+      "before_sha256": "d14e04988df0e8e5b308ddeaa037bf92d814cd41f2bc7f7e0420d7843ea35f8b",
+      "after_sha256": "c137a33e4785430652da08de359853df168c4d518db48d2f72ad58e440f1361a"
+    },
+    {
+      "path": "data/4_people/META_DATA/session_20260902_183751/capture_runtime.json",
+      "created": false,
+      "before_sha256": "927adeb69d757df782ef92fb3fdce17d07fa1c4886e0d5e7b858ab1cd4ba4168",
+      "after_sha256": "7a6601485ec4eff5694d75e94c1d9f068ffed83c8e919195f7cc634c4b73099b"
+    },
+    {
+      "path": "data/4_people/META_DATA/session_20260902_183751/meta.json",
+      "created": false,
+      "before_sha256": "c612f9185b85b8444bc379cee1b150a76e426778712216258b7ccc42e05ee5d9",
+      "after_sha256": "6d096ab3834940d00c344a3e1ce5ea979ec50c6e3153f106a1482a633f3c27d3"
+    },
+    {
+      "path": "data/processed/structured_dataset_prototype_manifest.json",
+      "created": false,
+      "before_sha256": "eccaeb4db8490d610f771a23b7ae3bc8ad887f35c6129d3acf39fec903730f3f",
+      "after_sha256": "0c546191e61ecf417e48a354463c839806696d8e2cef5bb6181f93f88451b051"
+    },
+    {
+      "path": "data/raw/session_20260615_203420/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "4181eb8ce2c39f6688097e2634372f75b7378a1606719842817e7c0bf627a8a7"
+    },
+    {
+      "path": "data/raw/session_20260615_203722/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "52275b8a106add78b8da0e42934a4e32b7ae5755e01bcbed5087a873b832b53d"
+    },
+    {
+      "path": "data/raw/session_20260615_205335/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "8ba7814c9ae62654aecef8707d88b02f7812bc4ce3be8d14e1f2a0b59d6cbc54"
+    },
+    {
+      "path": "data/raw/session_20260703_151554/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "4971e004609570a790735ae7a1b479efbf47f678b1711be3da6b9dda11810b9d"
+    },
+    {
+      "path": "data/raw/session_20260703_151951/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "707342bf0e3f46aaee56b99debf7299db1ba0904f62f2469248c8562d756f7fb"
+    },
+    {
+      "path": "data/raw/session_20260703_172027/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "60ddc571dcb37794de02303c804fa2b49837d1308893376b62ee77b8eb6cbc6d"
+    },
+    {
+      "path": "data/raw/session_20260710_145820/meta.json",
+      "created": false,
+      "before_sha256": "6b508b65441831d309b755c3536fce8e1b857df7b56c4c2f621aa979b0bbab56",
+      "after_sha256": "591f385ee17689b9a5be524a8531394df73eaaaf50a726a05aa5bed04b9aa0bc"
+    },
+    {
+      "path": "data/raw/session_20260710_153743/meta.json",
+      "created": false,
+      "before_sha256": "cf2bc0274f5f475f1b374947681b4265e96282a1b41b6953a7ec666e2c21955e",
+      "after_sha256": "b49713ae1768baf5b7a692fa0ffe8c378f6c17d9924e185bc1138c8d7b10de3d"
+    },
+    {
+      "path": "data/raw/session_20260814_150923/capture_runtime.json",
+      "created": false,
+      "before_sha256": "16ec4f840fc31fe63a67c96224f8549d39ed2a13fb161e916f631cb54f4ac69c",
+      "after_sha256": "ff8092fc61b20e550514becbb9ce66e5eca7b435a86f6095ee9143cb59da68cd"
+    },
+    {
+      "path": "data/raw/session_20260814_150923/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "f533179329da40a18b75ae5b64e0f62af950833225f458a7e22073a820c53248"
+    },
+    {
+      "path": "data/raw/session_20260814_151345/capture_runtime.json",
+      "created": false,
+      "before_sha256": "d92560a3f2c0271076b33df5be8c392662c7e72a3ee575c0a812e62d512592c1",
+      "after_sha256": "57e9443961801c89d2ff50e0581d0007480e14b68bd0741dcd71d9e12ae67089"
+    },
+    {
+      "path": "data/raw/session_20260814_151345/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "e6e61aae6e402b2f11b00273ff15efe885c199f704c973a9f7c8bd971e6b22a4"
+    },
+    {
+      "path": "data/raw/session_20260814_151757/capture_runtime.json",
+      "created": false,
+      "before_sha256": "c99dabbb00981aae76691d56c2188929e9c23f22d62c719450a0d1aaf66f1d70",
+      "after_sha256": "d662bd3d82e794eb1568e1036908496072cc61b9d4a686edd92902f949930ce3"
+    },
+    {
+      "path": "data/raw/session_20260814_151757/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "06942b6feb053f2ef395b73b965ef92ad6e0aee247ccc39273d2f7559be6d3cd"
+    },
+    {
+      "path": "data/raw/session_20260902_174112/capture_runtime.json",
+      "created": false,
+      "before_sha256": "616cc798cbaf890e30778ae4721f20b7355a79b980eb730c586ba66eb3547f66",
+      "after_sha256": "a9e15028819fd79937aa8a0cadf8ed75bac2d25850d41fb0fca0147493031838"
+    },
+    {
+      "path": "data/raw/session_20260902_174112/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "19904b0c7f9c85dcc7f090dd4772d52ec4ece6d87978c301053d33d51b67705f"
+    },
+    {
+      "path": "data/raw/session_20260902_174312/capture_runtime.json",
+      "created": false,
+      "before_sha256": "d7b9c9b563326c9aa5f93c4c3bf0512fdb9a3d2622fd9279ed8392db11bd603a",
+      "after_sha256": "052d77d6f096413c364f37e8b83bcf439bd46603190b1b757e6e431c0a80992e"
+    },
+    {
+      "path": "data/raw/session_20260902_174312/meta.json",
+      "created": true,
+      "before_sha256": null,
+      "after_sha256": "f2c1a264aed298caa295f8775858e0567add2c20b090bcfe38b4017f55d54255"
+    },
+    {
+      "path": "data/structured/session_20260710_145820_prototype_v1/manifest.json",
+      "created": false,
+      "before_sha256": "cb717f44ff1dc24e67fec20b8eb76a49f40088adf4b72e8f6f33c56d80ced157",
+      "after_sha256": "e16d8ee1bcf198293a3852fa8cedfc946126ad24559871df217a7ca6a10cb434"
+    },
+    {
+      "path": "data/structured/session_20260710_153743_prototype_v1/manifest.json",
+      "created": false,
+      "before_sha256": "0c28e39712b03fd5866c192d94799f5726c0d086d38b3d7904cd690b3afb8593",
+      "after_sha256": "e7af2aa9ed30b36452ef55f6770e76a1e76b188e222345a9bd6b9e511e417d55"
+    },
+    {
+      "path": "data/structured/session_20260902_182349/manifest.json",
+      "created": false,
+      "before_sha256": "6cb83abf3d268f368f91bdc472b2532657606885907ad5bf5d0d8b7ac2aadf97",
+      "after_sha256": "9a90d113f42d88e40aeab8f1e2f9056be4b1e7c20e9cc5c866ce79ae592b7277"
+    },
+    {
+      "path": "data/structured/session_20260902_183751/manifest.json",
+      "created": false,
+      "before_sha256": "a98c88272d45a66a01d4630ca637317b4efe20d6bc48e449dff603ac5d58e728",
+      "after_sha256": "c65784acef4ce9ed34805814e287c8a185e0201f4ff30424ad86f55d462aba6e"
+    },
+    {
+      "path": "data/structured/session_20260913_143135_999cdb09/manifest.json",
+      "created": false,
+      "before_sha256": "a9fa05d7a428eb10e905d38938393699bc611d9a7fd77381684f4ab95939aab2",
+      "after_sha256": "5e909d61ca8d51b42b6f1d3cf3fd1b389681a271e629a38667ac245c923fb93a"
+    },
+    {
+      "path": "data/structured/session_20260913_154543_2e610644/manifest.json",
+      "created": false,
+      "before_sha256": "2e24436acb31742c5bef9a098b1f568f667bf0d87c6d30821ebc0091dc1fd4d1",
+      "after_sha256": "f01601183677558db80eb504b58f45185ed957836cfcc759960004bdd88d264f"
+    },
+    {
+      "path": "data/structured/session_20260913_161128_29c3bb2f/manifest.json",
+      "created": false,
+      "before_sha256": "a952bd29f20d2cd6e88e1ca7f11eab7cf0094d934fc5fce2627ecbedb68a962a",
+      "after_sha256": "c8bb0a33f2c2b804b8821a7fb2dafd9a423cfe32e966a22d3a5ff312e9e14869"
+    },
+    {
+      "path": "data/structured/session_20260913_170126_a81112c0/manifest.json",
+      "created": false,
+      "before_sha256": "0e296c9b2e7fbeb768f69e97b12f10b014740ef3398968e3c0ccf3e0413c6ef0",
+      "after_sha256": "cbb49c3b795f85d10096585294f4647b53bcb0859263538bf1984bac59e0fa87"
+    },
+    {
+      "path": "outputs/dataset/session_index.csv",
+      "created": false,
+      "before_sha256": "b552baa97a26739e97575a4ed35166f3ffb6e80be840434b39e3149df9382bfb",
+      "after_sha256": "d03ce79ac87f0a24087958a05a6b0ab4ae9ea22323507fab9fa46d8cb511357d"
+    },
+    {
+      "path": "outputs/dataset/session_index.json",
+      "created": false,
+      "before_sha256": "a47be2375a062f276cb26c083de6742db4f1d1fca4c5d1811bbf028e31b4767a",
+      "after_sha256": "97aa1c2c1d0eec191cad1ba4f064eebc32e6d9cbbf4bfaaaa392d88339fd6ac8"
+    },
+    {
+      "path": "outputs/launcher/session_20260913_143135_999cdb09_rx.json",
+      "created": false,
+      "before_sha256": "d14e04988df0e8e5b308ddeaa037bf92d814cd41f2bc7f7e0420d7843ea35f8b",
+      "after_sha256": "c137a33e4785430652da08de359853df168c4d518db48d2f72ad58e440f1361a"
+    },
+    {
+      "path": "outputs/launcher/session_20260913_145724_8ae77998_rx.json",
+      "created": false,
+      "before_sha256": "e5e4ecafd12d8af670845df50e4ab9095f55e718339b96da149c6cf60ea48da4",
+      "after_sha256": "908b5b17ac00db6f074354a60228b84395a41e4329ea17569784e206dd56485d"
+    },
+    {
+      "path": "outputs/launcher/session_20260913_151206_6122a612_rx.json",
+      "created": false,
+      "before_sha256": "ef7f97d74be6b5560dd3db5e81ffc94fd7335d3ea0f9ebf2440b72b58d6d9c2c",
+      "after_sha256": "0abd0a3ae354864cc03cea703de524c246f5d89ed29908cf0e1f9d2267c7e620"
+    },
+    {
+      "path": "outputs/launcher/session_20260913_154543_2e610644_rx.json",
+      "created": false,
+      "before_sha256": "54e5697444f69b74deed900cdbd3975faa23f5a8c1a5ae3f3792a7ee1087a6fe",
+      "after_sha256": "9377c11ae09adadb7d4a8412a1c3d85a67f25ed8bed34e1738a40ec818bc0c3c"
+    },
+    {
+      "path": "outputs/launcher/session_20260913_161128_29c3bb2f_rx.json",
+      "created": false,
+      "before_sha256": "6c44e504632122e0fa6ce6c19a0e469e58056b00585acc02a9c65e42fa2a7643",
+      "after_sha256": "c0454f9e2c968c66a0300bf680b08b8a997dfb4485cf7fb3555941c3187b6f79"
+    },
+    {
+      "path": "outputs/launcher/session_20260913_170126_a81112c0_rx.json",
+      "created": false,
+      "before_sha256": "8062ce432711132e653f509010639fa8d3cd33edcd292b0380e1982842ae823f",
+      "after_sha256": "535647c1fdf057197153ba14b304d89b1910a1787551beca05812388a41bb88e"
+    }
+  ],
+  "verification": {
+    "all_21_sessions_labeled_G308": true,
+    "csi_and_video_sizes_and_mtimes_unchanged": true
+  }
+}

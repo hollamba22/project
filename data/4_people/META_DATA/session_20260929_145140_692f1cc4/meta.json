@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "session_id": "session_20260929_145140_692f1cc4",
+  "created_at": "2026-09-29T15:09:47+09:00",
+  "project": "wifi_csi_people_counting",
+  "quality_status": "valid_csi",
+  "dataset_role": "training_candidate",
+  "use_for_final_training": true,
+  "label": {
+    "num_people": 4,
+    "label_status": "stable_full_session",
+    "activity": "mixed",
+    "people_description": "",
+    "notes": ""
+  },
+  "capture": {
+    "duration_sec": 900.0,
+    "planned_duration_sec": 900.0,
+    "start_time_local": "2026-09-29 15:09:47",
+    "end_time_local": "2026-09-29 15:24:47",
+    "csi_file": "../../CSI_DATA/session_20260929_145140_692f1cc4.dat",
+    "csi_file_bytes": 28070760,
+    "csi_record_count": 71736,
+    "video_file": "../../Web_Cam/session_20260929_145140_692f1cc4.webm"
+  },
+  "environment": {
+    "room": "G304",
+    "setup_id": "0929G304",
+    "empty_reference_session_id": "session_20260929_130615_fca489d4",
+    "room_shape": "rectangle",
+    "room_has_wifi_rack": false,
+    "nearby_aps": "unknown",
+    "environment_note": "",
+    "door_state": "unknown",
+    "large_objects_moved": false,
+    "notes": ""
+  },
+  "layout": {
+    "tx_position": "unknown",
+    "rx_position": "unknown",
+    "hotspot_position": "unknown",
+    "tx_rx_distance_m": null,
+    "tx_height_m": null,
+    "rx_height_m": null,
+    "hotspot_height_m": null,
+    "antenna_holder": "3d_printed_v1",
+    "antenna_direction_fixed": true,
+    "antenna_notes": ""
+  },
+  "receiver": {
+    "hostname": "RXPC",
+    "role": "receiver",
+    "interface": "wlp4s0",
+    "mac": "00:16:ea:ed:a9:80",
+    "ip": "10.130.109.22/24",
+    "kernel": "4.15.0-213-generic",
+    "driver": "patched_iwlwifi",
+    "connector_log": 1,
+    "rx_bitrate_observed": "104.0 MBit/s MCS 13",
+    "signal_dbm": -35
+  },
+  "sender": {
+    "hostname": "",
+    "role": "sender",
+    "interface": "wlp4s0",
+    "mac": "",
+    "ip": "",
+    "kernel": "",
+    "ping_to_receiver_before_capture": "unknown",
+    "sender_command": "python3 scripts/sender/safe_sender.py --target 10.130.109.22 --mode udp --duration 910.0 --rate 100 --size 512"
+  },
+  "network": {
+    "ap_type": "phone_hotspot",
+    "ap_ssid": "Minhyuck S24+",
+    "ap_bssid": "be:93:07:3c:38:15",
+    "ap_channel": 1,
+    "ap_frequency_mhz": 2412,
+    "ap_band": "2.4GHz",
+    "ap_security": "",
+    "network_cidr": ""
+  },
+  "validation": {
+    "file_size_checked": true,
+    "parse_log_checked": true,
+    "parse_log_code": "0xBB",
+    "record_count_checked": true,
+    "valid_csi": true,
+    "review_reason": ""
+  },
+  "comments": "Training-candidate capture using the fixed 3D-printed antenna holder. RF transmitter is the phone hotspot/AP; sender PC is the traffic generator.",
+  "parser_summary": {
+    "antenna_dimensions": {
+      "3x2": 70264,
+      "3x1": 1472
+    },
+    "rates": {
+      "0x010e": 22392,
+      "0x010d": 35424,
+      "0x010c": 7483,
+      "0x010f": 1712,
+      "0x010b": 1292,
+      "0x0106": 597,
+      "0x010a": 102,
+      "0x0107": 72,
+      "0x0105": 308,
+      "0x210f": 1856,
+      "0x2107": 463,
+      "0x0101": 8,
+      "0x0104": 24,
+      "0x0109": 3
+    },
+    "rssi_average": {
+      "rssi_a": 31.220279915244788,
+      "rssi_b": 40.267550462808074,
+      "rssi_c": 33.985112077617934
+    },
+    "amplitude": {
+      "mean_of_packet_means": 25.228498727896877,
+      "mean_of_packet_stds": 17.03022399110088,
+      "min": 0.0,
+      "max": 128.16005617976296
+    }
+  },
+  "session_control": {
+    "file": "session_control.json",
+    "completed": true,
+    "abort_reason": ""
+  },
+  "activity_guidance": {
+    "file": "session_control.json",
+    "events": "GUIDE_*",
+    "segments_file": "activity_segments.json",
+    "settings": {
+      "version": 2,
+      "participants": [
+        {
+          "person": "P1",
+          "position": "Z1"
+        },
+        {
+          "person": "P2",
+          "position": "Z2"
+        },
+        {
+          "person": "P3",
+          "position": "Z3"
+        },
+        {
+          "person": "P4",
+          "position": "Z4"
+        }
+      ],
+      "prepare_sec": 30,
+      "settle_sec": 30,
+      "segments": [
+        {
+          "index": 1,
+          "repeat": 1,
+          "activity": "sitting",
+          "start_sec": 0.0,
+          "end_sec": 300.0
+        },
+        {
+          "index": 2,
+          "repeat": 1,
+          "activity": "standing",
+          "start_sec": 300.0,
+          "end_sec": 600.0
+        },
+        {
+          "index": 3,
+          "repeat": 1,
+          "activity": "walking",
+          "start_sec": 600.0,
+          "end_sec": 900.0,
+          "walking_order": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        }
+      ],
+      "walking_phase_sec": 5,
+      "walking_cycle_sec": 20,
+      "walking_rotation_sec": 60,
+      "timing_reference": "first_valid_session_udp_packet",
+      "annotation_kind": "planned_instructions_not_verified_actions"
+    }
+  }
+}

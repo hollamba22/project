@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260929_130615_fca489d4",
+  "completed": true,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1790654775.308001
+    },
+    {
+      "event": "COLLECTION_SELECTED",
+      "wall_epoch": 1790654792.3012226,
+      "room": "G304",
+      "setup_id": "0929G304",
+      "activity": "empty",
+      "empty_reference_session_id": "session_20260929_130615_fca489d4"
+    },
+    {
+      "event": "GUIDE_CONFIGURED",
+      "wall_epoch": 1790654823.1153555,
+      "settings": {
+        "version": 2,
+        "participants": [],
+        "prepare_sec": 30,
+        "settle_sec": 30,
+        "segments": [
+          {
+            "index": 1,
+            "repeat": 1,
+            "activity": "empty",
+            "start_sec": 0.0,
+            "end_sec": 600.0
+          }
+        ],
+        "walking_phase_sec": 5,
+        "walking_cycle_sec": 20,
+        "walking_rotation_sec": 60,
+        "timing_reference": "first_valid_session_udp_packet",
+        "annotation_kind": "planned_instructions_not_verified_actions"
+      }
+    },
+    {
+      "event": "PREFLIGHT",
+      "wall_epoch": 1790654823.1317139,
+      "config": {
+        "num_people": 0,
+        "duration_sec": 600.0,
+        "sender_duration_sec": 610.0,
+        "profile": {
+          "display_name": "김민혁 핫스팟",
+          "ssid": "Minhyuck S24+",
+          "verified": true,
+          "frequency_confirmed": true
+        },
+        "camera": {
+          "enabled": true,
+          "device": "/dev/video0",
+          "preview": true,
+          "width": 640,
+          "height": 480,
+          "fps": 10,
+          "label_video_missing": false,
+          "formats": "ioctl: VIDIOC_ENUM_FMT\n\tIndex       : 0\n\tType        : Video Capture\n\tPixel Format: 'MJPG' (compressed)\n\tName        : Motion-JPEG\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1440x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1920x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\n\tIndex       : 1\n\tType        : Video Capture\n\tPixel Format: 'H264' (compressed)\n\tName        : H.264\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1440x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\t\tSize: Discrete 1920x1080\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\t\tInterval: Discrete 0.040s (25.000 fps)\n\n\tIndex       : 2\n\tType        : Video Capture\n\tPixel Format: 'YUYV'\n\tName        : YUYV 4:2:2\n\t\tSize: Discrete 320x240\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 480x272\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 640x360\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 640x480\n\t\t\tInterval: Discrete 0.033s (30.000 fps)\n\t\tSize: Discrete 800x600\n\t\t\tInterval: Discrete 0.067s (15.000 fps)\n\t\tSize: Discrete 1024x576\n\t\t\tInterval: Discrete 0.100s (10.000 fps)\n\t\tSize: Discrete 1280x720\n\t\t\tInterval: Discrete 0.100s (10.000 fps)"
+        },
+        "rate": 100,
+        "size": 512,
+        "data_port": 5005,
+        "session_id": "session_20260929_130615_fca489d4"
+      },
+      "rx": {
+        "interface": "wlp4s0",
+        "ssid": "Minhyuck S24+",
+        "bssid": "be:93:07:3c:38:15",
+        "frequency": 2412,
+        "channel": 1,
+        "ip": "10.130.109.22",
+        "cidr": "10.130.109.22/24",
+        "mac": "00:16:ea:ed:a9:80",
+        "power_save": "Power save: off"
+      },
+      "checks": {
+        "kernel": "4.15.0-213-generic",
+        "connector_log": "1",
+        "iw_link": "Connected to be:93:07:3c:38:15 (on wlp4s0)\n\tSSID: Minhyuck S24+\n\tfreq: 2412\n\tRX: 1523153 bytes (5670 packets)\n\tTX: 84293 bytes (575 packets)\n\tsignal: -41 dBm\n\ttx bitrate: 19.5 MBit/s MCS 2\n\n\tbss flags:\tCTS-protection short-preamble short-slot-time\n\tdtim period:\t2\n\tbeacon int:\t100",
+        "ip_address": "3: wlp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n    inet 10.130.109.22/24 brd 10.130.109.255 scope global dynamic noprefixroute wlp4s0\n       valid_lft 3345sec preferred_lft 3345sec",
+        "free_bytes": 53492162560,
+        "active_logger_pids": [],
+        "camera": {
+          "device": "/dev/video0",
+          "real_path": "/dev/video0",
+          "name": "Web Camera: Web Camera",
+          "gst_launch": "/usr/bin/gst-launch-1.0",
+          "enabled": true
+        },
+        "problems": [],
+        "driver_module": "/lib/modules/4.15.0-213-generic/updates/iwlwifi.ko",
+        "firmware": "/lib/firmware/iwlwifi-5000-2.ucode.sigcomm2010",
+        "power_save": "Power save: off"
+      }
+    },
+    {
+      "event": "HANDSHAKE",
+      "wall_epoch": 1790654868.2896485,
+      "tx": {
+        "interface": "wlp4s0",
+        "ssid": "Minhyuck S24+",
+        "bssid": "be:93:07:3c:38:15",
+        "frequency": 2412,
+        "channel": 1,
+        "ip": "10.130.109.104",
+        "cidr": "10.130.109.104/24",
+        "mac": "00:21:6a:6d:30:40",
+        "power_save": "Power save: on"
+      },
+      "peer_ip": "10.130.109.104"
+    },
+    {
+      "event": "TX_READY",
+      "wall_epoch": 1790654877.2916403,
+      "ping": {
+        "ok": true,
+        "output": "PING 10.130.109.22 (10.130.109.22) from 10.130.109.104 wlp4s0: 56(84) bytes of data.\n64 bytes from 10.130.109.22: icmp_seq=1 ttl=64 time=10.8 ms\n64 bytes from 10.130.109.22: icmp_seq=2 ttl=64 time=18.3 ms\n64 bytes from 10.130.109.22: icmp_seq=3 ttl=64 time=18.7 ms\n64 bytes from 10.130.109.22: icmp_seq=4 ttl=64 time=21.7 ms\n\n--- 10.130.109.22 ping statistics ---\n4 packets transmitted, 4 received, 0% packet loss, time 3005ms\nrtt min/avg/max/mdev = 10.878/17.405/21.700/3.987 ms\n"
+      }
+    },
+    {
+      "event": "RX_APPROVED",
+      "wall_epoch": 1790654882.1520486
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1790654890.9772286,
+      "stage": "자리 준비·퇴실",
+      "cue_key": "자리 준비·퇴실",
+      "instruction": "조작자를 포함해 모두 퇴실하고 문 상태를 고정하세요.",
+      "planned_duration_sec": 30
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1790654920.9773986,
+      "stage": "안정화",
+      "cue_key": "안정화",
+      "instruction": "빈 방 유지 — 들어오지 마세요.",
+      "planned_duration_sec": 30
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1790654950.9775598,
+      "stage": "시작 대기",
+      "cue_key": "waiting",
+      "instruction": "현재 상태를 유지하고 시작 안내를 기다리세요."
+    },
+    {
+      "event": "CAPTURE_READY",
+      "wall_epoch": 1790654951.4794602
+    },
+    {
+      "event": "START",
+      "wall_epoch": 1790654951.4802983,
+      "attempt": 1
+    },
+    {
+      "event": "START_ACK",
+      "wall_epoch": 1790654951.5806882
+    },
+    {
+      "event": "GUIDE_TIME_ANCHOR",
+      "wall_epoch": 1790654951.9795146,
+      "first_packet_wall_epoch": 1790654951.9793947,
+      "clock": "elapsed seconds since first valid session UDP; cues are instructions, not observed actions"
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1790654951.9800594,
+      "stage": "수집 중 1/1구간",
+      "cue_key": "segment_1_empty",
+      "instruction": "빈 방 유지 — 들어오지 마세요.",
+      "scheduled_elapsed_sec": 0.0,
+      "observed_elapsed_sec": 0.00011643699997421209,
+      "first_packet_wall_epoch": 1790654951.9793947,
+      "next_instruction": "기록 시간 종료 — 정리 중 현재 상태 유지",
+      "person": null,
+      "activity": "empty",
+      "segment_index": 1,
+      "repeat": 1
+    },
+    {
+      "event": "GUIDE_CUE",
+      "wall_epoch": 1790655551.9794898,
+      "stage": "기록 마무리",
+      "cue_key": "finishing",
+      "instruction": "영상·기록 정리가 끝날 때까지 현재 상태를 유지하세요.",
+      "elapsed_sec": 600.0
+    },
+    {
+      "event": "GUIDE_STATUS",
+      "wall_epoch": 1790655567.4265893,
+      "stage": "processing"
+    },
+    {
+      "event": "SENDER_DONE",
+      "wall_epoch": 1790655567.4276397,
+      "result": {
+        "sent": 61000,
+        "elapsed_sec": 610.000329134,
+        "duration_sec": 610.0,
+        "rate": 100,
+        "size": 512,
+        "exit_code": 0
+      }
+    },
+    {
+      "event": "GUIDE_STATUS",
+      "wall_epoch": 1790655603.6712098,
+      "stage": "confirming"
+    },
+    {
+      "event": "CAPTURE_DONE",
+      "wall_epoch": 1790655603.6718802
+    },
+    {
+      "event": "COMPLETE_ACK",
+      "wall_epoch": 1790655603.698296
+    },
+    {
+      "event": "GUIDE_RESULT",
+      "wall_epoch": 1790655603.6992016,
+      "completed": true,
+      "reason": ""
+    },
+    {
+      "event": "COMPLETE",
+      "wall_epoch": 1790655603.6999536
+    }
+  ],
+  "collection_context": {
+    "room": "G304",
+    "setup_id": "0929G304",
+    "activity": "empty",
+    "empty_reference_session_id": "session_20260929_130615_fca489d4"
+  },
+  "activity_guidance": {
+    "version": 2,
+    "participants": [],
+    "prepare_sec": 30,
+    "settle_sec": 30,
+    "segments": [
+      {
+        "index": 1,
+        "repeat": 1,
+        "activity": "empty",
+        "start_sec": 0.0,
+        "end_sec": 600.0
+      }
+    ],
+    "walking_phase_sec": 5,
+    "walking_cycle_sec": 20,
+    "walking_rotation_sec": 60,
+    "timing_reference": "first_valid_session_udp_packet",
+    "annotation_kind": "planned_instructions_not_verified_actions"
+  },
+  "abort_reason": ""
+}

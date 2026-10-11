@@ -1,0 +1,70 @@
+{
+  "configuration": {
+    "csi_mode": "scaled",
+    "expected_nrx": 3,
+    "expected_ntx": 2,
+    "min_packets": 40,
+    "rx_permutation_applied": true,
+    "stride_sec": 1.0,
+    "timestamp_source": "Intel 5300 timestamp_low (microseconds, unwrapped)",
+    "window_size_sec": 2.0
+  },
+  "created_at": "2026-09-17T19:47:50+09:00",
+  "environment": {
+    "empty_reference_session_id": "session_20260917_193753_575208a2",
+    "room": "G304",
+    "setup_id": "A"
+  },
+  "label": {
+    "activity": "empty",
+    "has_trainable_label": true,
+    "label_status": "stable_full_session",
+    "num_people": 0
+  },
+  "outputs": {
+    "window_features_csv": "data/structured/session_20260917_193753_575208a2/window_features.csv"
+  },
+  "quality": {
+    "final_training_allowed": true,
+    "note": "Training-candidate data captured with the antenna fixture recorded in meta.json.",
+    "review_reasons": [],
+    "status": "valid_training_candidate"
+  },
+  "records": {
+    "accepted": 25714,
+    "antenna_dimensions": {
+      "3x2": 25714
+    },
+    "invalid_permutation": 0,
+    "observed_duration_sec": 300.882209,
+    "permutations": {
+      "2-1-3": 25714
+    },
+    "rates": {
+      "0x010e": 1683,
+      "0x010f": 190,
+      "0x210f": 23841
+    },
+    "scaling_errors": 0,
+    "skipped_dimension": 0,
+    "total": 25714
+  },
+  "schema_version": "1.1",
+  "session_id": "session_20260917_193753_575208a2",
+  "source": {
+    "csi_file": "data/0_people/CSI_DATA/session_20260917_193753_575208a2.dat",
+    "file_bytes": 10157030,
+    "meta_file": "data/0_people/META_DATA/session_20260917_193753_575208a2/meta.json",
+    "sha256": "c14dfa322a596999cd557382cc142b54b5aef6aed01de0dc93b6b99a041976e1"
+  },
+  "windows": {
+    "dropped_short": 0,
+    "feature_count": 88,
+    "kept": 299
+  },
+  "activity_guidance": {
+    "segments_file": "data/0_people/META_DATA/session_20260917_193753_575208a2/activity_segments.json",
+    "events_file": "data/0_people/META_DATA/session_20260917_193753_575208a2/session_control.json",
+    "label_status": "planned_instructions_not_verified_actions"
+  }
+}

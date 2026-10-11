@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=CSI 4.15 HDMI Resolution
+Comment=Apply the verified 1920x1080 mode when EDID is unavailable
+Exec=/home/mh/.local/bin/csi-set-resolution
+OnlyShowIn=GNOME;Unity;
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

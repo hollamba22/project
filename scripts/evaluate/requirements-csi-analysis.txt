@@ -1,0 +1,7 @@
+# Versions used on this receiver's Python 3.6.9. Install separately from capture.
+numpy==1.19.5
+scipy==1.5.4
+scikit-learn==0.24.2
+matplotlib==3.3.4
+joblib==1.1.1
+threadpoolctl==3.1.0

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0-guide",
+  "session_id": "session_20260917_194936_cd512ca7",
+  "time_reference": "first_valid_session_udp_packet",
+  "first_packet_wall_epoch": 1789642439.8382535,
+  "segments": [
+    {
+      "index": 1,
+      "repeat": 1,
+      "activity": "sitting",
+      "start_sec": 0.0,
+      "end_sec": 120.0
+    },
+    {
+      "index": 2,
+      "repeat": 1,
+      "activity": "standing",
+      "start_sec": 120.0,
+      "end_sec": 240.0
+    },
+    {
+      "index": 3,
+      "repeat": 1,
+      "activity": "walking",
+      "start_sec": 240.0,
+      "end_sec": 360.0,
+      "walking_order": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ]
+    }
+  ],
+  "completed": true,
+  "instruction_events_file": "session_control.json",
+  "instruction_event_name": "GUIDE_CUE",
+  "label_status": "planned_instructions_not_verified_actions",
+  "alignment_note": "CSI feature-window seconds use the first CSI record, not this UDP anchor; verify alignment before joining."
+}

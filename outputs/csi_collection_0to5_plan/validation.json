@@ -1,0 +1,17 @@
+{
+  "total_recordings": 144,
+  "total_hours": 12,
+  "phases": {
+    "train": 72,
+    "validation": 24,
+    "blind_static": 24,
+    "blind_dynamic": 16,
+    "unlabeled": 8
+  },
+  "static_train_validation_count_per_class": 16,
+  "blind_static_count_per_class": 4,
+  "public_inference_manifest_has_answers": false,
+  "all_static_participant_combinations_balanced": true,
+  "all_static_sets_have_nested_groups": true,
+  "hardware_or_data_modified": false
+}

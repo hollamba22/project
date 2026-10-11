@@ -1,0 +1,88 @@
+{
+  "configuration": {
+    "csi_mode": "scaled",
+    "expected_nrx": 3,
+    "expected_ntx": 2,
+    "min_packets": 40,
+    "rx_permutation_applied": true,
+    "stride_sec": 1.0,
+    "timestamp_source": "Intel 5300 timestamp_low (microseconds, unwrapped)",
+    "window_size_sec": 2.0
+  },
+  "created_at": "2026-09-29T14:50:52+09:00",
+  "environment": {
+    "empty_reference_session_id": "session_20260929_130615_fca489d4",
+    "room": "G304",
+    "setup_id": "0929G304"
+  },
+  "label": {
+    "activity": "mixed",
+    "has_trainable_label": true,
+    "label_status": "stable_full_session",
+    "num_people": 1
+  },
+  "outputs": {
+    "window_features_csv": "data/structured/session_20260929_143235_e4fb900b/window_features.csv"
+  },
+  "quality": {
+    "final_training_allowed": false,
+    "note": "Training-candidate data captured with the antenna fixture recorded in meta.json.",
+    "review_reasons": [
+      "2663 records had unexpected antenna dimensions"
+    ],
+    "status": "needs_review"
+  },
+  "records": {
+    "accepted": 67655,
+    "antenna_dimensions": {
+      "3x1": 2663,
+      "3x2": 67655
+    },
+    "invalid_permutation": 0,
+    "observed_duration_sec": 900.007791,
+    "permutations": {
+      "2-1-3": 1871,
+      "2-3-1": 68447
+    },
+    "rates": {
+      "0x0101": 75,
+      "0x0102": 55,
+      "0x0103": 115,
+      "0x0104": 158,
+      "0x0105": 552,
+      "0x0106": 876,
+      "0x0107": 90,
+      "0x0108": 48,
+      "0x0109": 802,
+      "0x010a": 221,
+      "0x010b": 1644,
+      "0x010c": 6518,
+      "0x010d": 28290,
+      "0x010e": 23178,
+      "0x010f": 2099,
+      "0x2107": 742,
+      "0x210f": 4855
+    },
+    "scaling_errors": 0,
+    "skipped_dimension": 2663,
+    "total": 70318
+  },
+  "schema_version": "1.1",
+  "session_id": "session_20260929_143235_e4fb900b",
+  "source": {
+    "csi_file": "data/1_people/CSI_DATA/session_20260929_143235_e4fb900b.dat",
+    "file_bytes": 27296270,
+    "meta_file": "data/1_people/META_DATA/session_20260929_143235_e4fb900b/meta.json",
+    "sha256": "fac795a515829b621a79512c5daea81bc40f748fce60cd306817cec03994bb58"
+  },
+  "windows": {
+    "dropped_short": 2,
+    "feature_count": 88,
+    "kept": 897
+  },
+  "activity_guidance": {
+    "segments_file": "data/1_people/META_DATA/session_20260929_143235_e4fb900b/activity_segments.json",
+    "events_file": "data/1_people/META_DATA/session_20260929_143235_e4fb900b/session_control.json",
+    "label_status": "planned_instructions_not_verified_actions"
+  }
+}

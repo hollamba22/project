@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0-guide",
+  "session_id": "session_20260917_193753_575208a2",
+  "time_reference": "first_valid_session_udp_packet",
+  "first_packet_wall_epoch": 1789641738.90758,
+  "segments": [
+    {
+      "index": 1,
+      "repeat": 1,
+      "activity": "empty",
+      "start_sec": 0.0,
+      "end_sec": 300.0
+    }
+  ],
+  "completed": true,
+  "instruction_events_file": "session_control.json",
+  "instruction_event_name": "GUIDE_CUE",
+  "label_status": "planned_instructions_not_verified_actions",
+  "alignment_note": "CSI feature-window seconds use the first CSI record, not this UDP anchor; verify alignment before joining."
+}

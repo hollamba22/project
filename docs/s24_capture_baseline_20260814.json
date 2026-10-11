@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "baseline_id": "s24_capture_baseline_20260814",
+  "recorded_at": "2026-08-14T16:06:06+09:00",
+  "status": "network_recovered_csi_capture_not_run_today",
+  "canonical_csi_success": {
+    "date": "2026-07-10",
+    "sessions": {
+      "session_20260710_145820": {
+        "bytes": 1843190,
+        "records": 4690
+      },
+      "session_20260710_153743": {
+        "bytes": 1941820,
+        "records": 4916
+      }
+    }
+  },
+  "required": {
+    "kernel": "4.15.0-213-generic",
+    "interface": "wlp4s0",
+    "receiver_mac": "00:16:ea:ed:a9:80",
+    "driver_module_path": "/lib/modules/4.15.0-213-generic/updates/iwlwifi.ko",
+    "firmware_target": "/lib/firmware/iwlwifi-5000-2.ucode.sigcomm2010",
+    "connector_log": "1",
+    "ssid": "Minhyuck S24+",
+    "frequency_mhz": 2437,
+    "channel": 6,
+    "power_save": "off"
+  },
+  "observed": {
+    "ap_bssid": "be:93:07:3c:38:15",
+    "receiver_ipv4_cidr": "172.17.35.22/24",
+    "gateway_ipv4": "172.17.35.132",
+    "sender_ipv4": "172.17.35.104",
+    "sender_mac": "00:21:6a:6d:30:40",
+    "signal_dbm": -32,
+    "station_tx_failed": 3
+  },
+  "communication_tests": {
+    "receiver_to_gateway": {
+      "packets_transmitted": 4,
+      "packets_received": 4,
+      "packet_loss_percent": 0,
+      "status": "pass"
+    },
+    "sender_to_receiver_tcpdump": {
+      "packets_captured": 16,
+      "packets_dropped_by_kernel": 0,
+      "status": "icmp_observed_sender_ping_summary_not_preserved"
+    },
+    "receiver_to_sender": {
+      "packets_transmitted": 4,
+      "packets_received": 0,
+      "packet_loss_percent": 100,
+      "status": "fail_needs_sender_firewall_or_link_review"
+    },
+    "udp_port_5005_today": {
+      "status": "not_tested_after_s24_restore"
+    },
+    "csi_capture_today": {
+      "status": "not_run"
+    }
+  },
+  "dynamic_fields": [
+    "ap_bssid",
+    "receiver_ipv4_cidr",
+    "gateway_ipv4",
+    "sender_ipv4",
+    "network_cidr",
+    "dhcp_lease",
+    "idle_bitrate"
+  ],
+  "networkmanager_profiles": {
+    "Minhyuck S24+ 1": "autoconnect_yes_priority_100_dhcp_power_save_off",
+    "Minhyuck S24+": "autoconnect_no",
+    "Galaxy S25+ D8BB": "autoconnect_no",
+    "Galaxy S25+ D8BB 1": "autoconnect_no",
+    "csi-hotspot-rx": "autoconnect_no"
+  }
+}

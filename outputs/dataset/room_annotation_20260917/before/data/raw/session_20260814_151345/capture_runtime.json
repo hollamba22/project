@@ -1,0 +1,38 @@
+{
+  "abort_reason": "CSI logger exited before capture started",
+  "aborted": true,
+  "activity": "natural",
+  "completed": false,
+  "csi_file_bytes": 0,
+  "logger_exit_code": 1,
+  "num_people": 3,
+  "planned_duration_sec": 10.0,
+  "preflight": {
+    "connector_log": "1",
+    "free_bytes": 59262476288,
+    "ip_address": "4: wlp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000\n    inet 10.72.159.105/24 brd 10.72.159.255 scope global noprefixroute wlp4s0\n       valid_lft forever preferred_lft forever",
+    "iw_link": "Connected to fe:ea:cf:9c:52:fc (on wlp4s0)\n\tSSID: Galaxy S25+ D8BB\n\tfreq: 2412\n\tRX: 6223545 bytes (46863 packets)\n\tTX: 64578 bytes (517 packets)\n\tsignal: -25 dBm\n\ttx bitrate: 1.0 MBit/s\n\n\tbss flags:\tCTS-protection short-preamble short-slot-time\n\tdtim period:\t2\n\tbeacon int:\t100",
+    "kernel": "4.15.0-213-generic",
+    "problems": []
+  },
+  "receiver_ip": "10.72.159.105",
+  "room": "prototype_room",
+  "schema_version": "1.0-prototype",
+  "session_id": "session_20260814_151345",
+  "started_at": "2026-08-14T15:13:45+09:00",
+  "topology": {
+    "csi_receiver": "Intel 5300 receiver PC",
+    "rf_transmitter": "phone hotspot/AP",
+    "traffic_generator": "sender PC"
+  },
+  "udp": {
+    "error": null,
+    "first_packet_wall_epoch": null,
+    "last_packet_wall_epoch": null,
+    "observed_duration_sec": 0.0,
+    "packet_count": 0,
+    "payload_bytes": 0,
+    "sources": {}
+  },
+  "udp_port": 5005
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0-control",
+  "role": "RX",
+  "session_id": "session_20260913_142930_bc68383a",
+  "completed": false,
+  "events": [
+    {
+      "event": "OPEN",
+      "wall_epoch": 1789277371.0043676
+    },
+    {
+      "event": "FAILED",
+      "wall_epoch": 1789277377.7592897
+    }
+  ],
+  "abort_reason": "명령 실행 실패 v4l2-ctl: [Errno 2] No such file or directory: 'v4l2-ctl': 'v4l2-ctl'"
+}
